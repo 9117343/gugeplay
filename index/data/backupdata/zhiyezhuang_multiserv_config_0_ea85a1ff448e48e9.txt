@@ -1,1 +1,0 @@
-INSERT INTO `zhiyezhuang_multiserv_config` VALUES('1','http://img.dedecms.com','a:4:{s:6:\"rmhost\";s:9:\"127.0.0.1\";s:6:\"rmport\";s:2:\"21\";s:6:\"rmname\";s:4:\"dede\";s:5:\"rmpwd\";s:4:\"dede\";}','’æµ„1 | 192.168.0.112 | 21 | dede | dede | admin\r\n’æµ„2 | 192.168.0.112 | 21 | dede | dede | support');

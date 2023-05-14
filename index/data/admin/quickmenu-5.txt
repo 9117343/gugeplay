@@ -1,2 +1,0 @@
-
-<menu:item ico="www.gugeplay.com" link="www.gugeplay.com" title="ְҵװ" />

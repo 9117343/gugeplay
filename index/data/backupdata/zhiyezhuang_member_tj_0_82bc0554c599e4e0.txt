@@ -1,5 +1,0 @@
-INSERT INTO `zhiyezhuang_member_tj` VALUES('1','0','0','0','2','6425','0','0','0','0','0','0');
-INSERT INTO `zhiyezhuang_member_tj` VALUES('2','1','0','0','0','1','0','0','0','0','0','0');
-INSERT INTO `zhiyezhuang_member_tj` VALUES('3','0','0','0','1','2967','0','0','0','0','0','0');
-INSERT INTO `zhiyezhuang_member_tj` VALUES('4','0','0','0','0','1991','0','0','0','0','0','0');
-INSERT INTO `zhiyezhuang_member_tj` VALUES('5','0','0','0','0','1754','0','0','0','0','0','0');
