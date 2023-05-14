@@ -1,0 +1,8 @@
+@charset "gb2312";
+/* channel menu */
+.menu_baby_tab { margin:0 auto; padding:0 5px; width:950px; height:35px; background:url(../../m_imgs/c_menu_bg.jpg) no-repeat 0 -360px; clear:both;}
+.menu_baby_tab ul {}
+.menu_baby_tab ul li { display:block; width:79px; height:35px; line-height:35px; text-align:center; font-size:13px; font-weight:700; float:left;}
+.menu_baby_tab ul li a { color:#FFF;}
+.menu_baby_tab ul li a:hover { color:#FF0;}
+.menu_line { background:url(../../m_imgs/menu_baby_line.gif) no-repeat 0 12px;}

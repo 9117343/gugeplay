@@ -1,0 +1,741 @@
+#subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#subNav UL.ul1 LI.lineOther {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+.main1000 {
+	BACKGROUND-IMAGE: url(nav.png)
+}
+.main990 {
+	BACKGROUND-IMAGE: url(nav.png)
+}
+.main1000 {
+	BORDER-RIGHT: #6c7d6d 1px solid; BACKGROUND-COLOR: #465747
+}
+SPAN.mark {
+	PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+SPAN.mark I {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 2px; COLOR: #acacac; FONT-FAMILY: Arial
+}
+SPAN.subMark {
+	PADDING-RIGHT: 8px; COLOR: #acacac; PADDING-TOP: 3px
+}
+SPAN.subMark A {
+	COLOR: #acacac
+}
+#p1st {
+	HEIGHT: 892px
+}
+#p1st .leftTxt {
+	MARGIN: 0px 0px 8px; COLOR: #796469; ZOOM: 1
+}
+#p1st .leftTxt LI {
+	FONT-SIZE: 14px; FLOAT: left; VERTICAL-ALIGN: middle; WIDTH: 200px; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+#p1st .leftPic {
+	CLEAR: both; DISPLAY: block; HEIGHT: 92px
+}
+#p1st .leftPic LI {
+	FLOAT: left; MARGIN: 15px 0px 0px 5px; WIDTH: 190px; LINE-HEIGHT: 20px; ZOOM: 1; HEIGHT: 60px
+}
+#p1st .leftPic LI I {
+	FLOAT: left
+}
+#p1st .leftPic LI .iPic {
+	WIDTH: 70px; TEXT-ALIGN: center
+}
+#p1st .leftPic LI .iInfo EM {
+	DISPLAY: block; PADDING-LEFT: 8px; WIDTH: 110px
+}
+.eDes {
+	TEXT-INDENT: 20px
+}
+#p1st .leftPic LI .eTitle {
+	FONT-WEIGHT: bold; BACKGROUND: url(arrow.gif) no-repeat left 5px
+}
+#p1st .lBox1 {
+	BACKGROUND: url(focustxt.gif) no-repeat center top; HEIGHT: 122px
+}
+#p1st .lBox1 .pTitle {
+	FONT-SIZE: 20px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 90px; COLOR: #d81501; PADDING-TOP: 25px; FONT-FAMILY: "ºÚÌå"
+}
+#p1st .lBox1 .pTitle A {
+	COLOR: #d81501
+}
+#p1st .lBox1 .pDes {
+	PADDING-RIGHT: 12px; MARGIN-LEFT: 90px; LINE-HEIGHT: 22px
+}
+#p1st .lBox2 {
+	MARGIN-TOP: 15px; MARGIN-LEFT: 5px; HEIGHT: 174px
+}
+#p1st .ivyH75 {
+	CLEAR: both; HEIGHT: 75px; TEXT-ALIGN: right
+}
+#p1st .lBox3 {
+	CLEAR: both; MARGIN-TOP: 15px; MARGIN-LEFT: 5px; OVERFLOW: hidden; BORDER-BOTTOM: #ececec 1px solid; HEIGHT: 168px
+}
+#p1st .lBox4 {
+	BACKGROUND: url(p1left3.gif) no-repeat center bottom; HEIGHT: 116px
+}
+#p1st .lBox4 .lHead {
+	HEIGHT: 24px
+}
+#p1st .lBox4 .subMark {
+	COLOR: #acacac
+}
+SPAN.mark {
+	COLOR: #485b48
+}
+SPAN.mark A {
+	COLOR: #485b48
+}
+SPAN.mark A:link {
+	COLOR: #485b48
+}
+SPAN.mark A:visited {
+	COLOR: #485b48
+}
+SPAN.mark A:active {
+	COLOR: #485b48
+}
+SPAN.mark A:hover {
+	COLOR: #485b48
+}
+#p1st .lBox5 {
+	BORDER-RIGHT: #ececec 1px solid; BORDER-TOP: #ececec 1px; BORDER-LEFT: #ececec 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #ececec 1px solid; HEIGHT: 190px
+}
+#p1st .lBox5 .divPic {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 12px; WIDTH: 135px
+}
+#p1st .lBox5 .divPic UL LI {
+	BACKGROUND: url(plpicbg.gif) no-repeat center 101px; HEIGHT: 180px
+}
+#p1st .lBox5 .divPic I {
+	DISPLAY: block
+}
+#p1st .lBox5 .divPic I.iTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; PADDING-TOP: 6px
+}
+#p1st .lBox5 .divPic I.iDes {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; TEXT-INDENT: 24px; LINE-HEIGHT: 18px; PADDING-TOP: 0px
+}
+#p1st .lBox5 .divTxt {
+	FLOAT: right; WIDTH: 240px
+}
+#p1st .lBox5 .divTxt .myDiary {
+	MARGIN-TOP: 8px
+}
+#p1st .lBox5 .divTxt .myDiary UL LI {
+	FONT-SIZE: 14px; LINE-HEIGHT: 24px
+}
+A.aColumn {
+	COLOR: #b50066
+}
+#p1st .right300 {
+	BACKGROUND: url(focuspic3.gif) no-repeat center top; HEIGHT: 892px
+}
+#p1st .mBox1 {
+	MARGIN-TOP: 10px; HEIGHT: 422px
+}
+#p1st .mBox1 .focusPic {
+	MARGIN: auto; WIDTH: 285px; POSITION: relative; HEIGHT: 380px
+}
+#p1st .focusPic .pagination {
+	CLEAR: both; RIGHT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 358px; HEIGHT: 15px
+}
+#p1st .focusPic .pagination .subLineTab {
+	DISPLAY: none; WIDTH: 100%
+}
+#p1st .focusPic .pagination .subPageTab {
+	FLOAT: right
+}
+#p1st .focusPic .pagination A {
+	PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND: url(focusbt02.gif) no-repeat; FLOAT: left; PADDING-BOTTOM: 2px; WIDTH: auto; COLOR: #fff; LINE-HEIGHT: 14px; MARGIN-RIGHT: 2px; PADDING-TOP: 1px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#p1st .focusPic .pagination A:hover {
+	BACKGROUND: url(focusbt01.gif) no-repeat
+}
+#p1st .focusPic .pagination A.selected {
+	BACKGROUND: url(focusbt01.gif) no-repeat
+}
+#p1st .focusPic .contentdiv A {
+	DISPLAY: block
+}
+#p1st .focusPic .contentdiv A.aPic {
+	WIDTH: 285px; HEIGHT: 380px
+}
+#p1st .focusPic .contentdiv A.aTitle {
+	FONT-WEIGHT: bold; LEFT: 10px; WIDTH: 168px; COLOR: #fff; LINE-HEIGHT: 28px; POSITION: absolute; TOP: 353px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+#p1st .mBox1 .quickSearch {
+	CLEAR: both; PADDING-LEFT: 70px; PADDING-TOP: 9px
+}
+#p1st .mBox1 .quickSearch INPUT {
+	FLOAT: left; VERTICAL-ALIGN: middle
+}
+#p1st .mBox1 .quickSearch INPUT.inputTxt {
+	BORDER-RIGHT: #989898 1px; PADDING-RIGHT: 5px; BORDER-TOP: #989898 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: url(searchin.gif) #fff repeat-x; PADDING-BOTTOM: 0px; BORDER-LEFT: #989898 1px solid; WIDTH: 90px; COLOR: #6b6b6b; LINE-HEIGHT: 23px; PADDING-TOP: 0px; BORDER-BOTTOM: #989898 1px solid; HEIGHT: 23px
+}
+#p1st .mBox1 .quickSearch A {
+	MARGIN-LEFT: 5px; LINE-HEIGHT: 25px; TEXT-DECORATION: underline
+}
+#p1st .mBox2 .mHead {
+	PADDING-TOP: 8px; HEIGHT: 21px
+}
+#p1st .mBox2 .mPic {
+	PADDING-BOTTOM: 12px; PADDING-TOP: 5px; HEIGHT: 90px
+}
+#p1st .mBox2 .mPic LI {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 15px; WIDTH: 80px; HEIGHT: 80px; TEXT-ALIGN: center
+}
+.mProduct {
+	MARGIN-TOP: 12px
+}
+.mProduct UL {
+	CLEAR: both; OVERFLOW: hidden
+}
+.mProduct UL LI {
+	VERTICAL-ALIGN: middle; HEIGHT: 94px
+}
+.mProduct UL LI .iPic {
+	FLOAT: left; MARGIN-LEFT: 8px; WIDTH: 82px
+}
+.mProduct UL LI .iInfo {
+	FLOAT: left; WIDTH: 195px
+}
+.mProduct UL LI .iInfo EM {
+	DISPLAY: block; PADDING-LEFT: 14px; LINE-HEIGHT: 18px
+}
+.mProduct UL LI .iInfo EM.eTitle {
+	FONT-WEIGHT: bold; BACKGROUND: url(arrow.gif) no-repeat 5px 5px; LINE-HEIGHT: 18px
+}
+.mProduct UL LI .iInfo EM.eDes {
+	TEXT-INDENT: 20px; LINE-HEIGHT: 20px
+}
+.mProduct UL LI .iInfo EM.eSend {
+	MARGIN-TOP: 2px
+}
+#p1st .right240 .rHead {
+	BACKGROUND: #f5f5f5
+}
+#p1st .right240 .rBody {
+	BACKGROUND: #f5f5f5
+}
+#p1st .right240 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#p1st .right240 .rBox2 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; PADDING-TOP: 5px; HEIGHT: 257px
+}
+#p1st .right240 .rBox2 TABLE TD {
+	TEXT-JUSTIFY: inter-ideograph; COLOR: #485b48; WORD-BREAK: break-all; WHITE-SPACE: normal; TEXT-ALIGN: justify
+}
+#p1st .right240 .rBox3 {
+	OVERFLOW: hidden; HEIGHT: 222px
+}
+#p1st .right240 .rBox3 TD {
+	FONT-SIZE: 14px; BACKGROUND: url(dian.gif) no-repeat left 10px; TEXT-INDENT: 8px; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.rBody .pagination {
+	CLEAR: both; PADDING-LEFT: 5px; BACKGROUND: url(rpagination.gif) repeat-x; HEIGHT: 28px
+}
+.rBody .pagination A {
+	DISPLAY: inline; FLOAT: left; WIDTH: 62px; PADDING-TOP: 5px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.rBody .pagination A:hover {
+	BACKGROUND: url(rpon.gif) no-repeat; COLOR: #315b35
+}
+.rBody .pagination A.selected {
+	BACKGROUND: url(rpon.gif) no-repeat; COLOR: #315b35
+}
+.rBody .sliderwrapper {
+	CLEAR: both; PADDING-TOP: 5px
+}
+#p1st .right240 .rBody .contentdiv {
+	LINE-HEIGHT: 25px; HEIGHT: 125px; TEXT-ALIGN: center
+}
+#p1st .right240 .rBody .contentdiv .rTxt {
+	TEXT-ALIGN: left
+}
+.inner .theadMain {
+	BACKGROUND: url(health_bg1.gif) no-repeat right top; LINE-HEIGHT: 30px; PADDING-TOP: 8px; BORDER-BOTTOM: #bfcac0 1px solid; HEIGHT: 30px
+}
+.inner .theadMain .mark {
+	FLOAT: left
+}
+.inner .theadMain .subMark {
+	FLOAT: right; MARGIN-RIGHT: 10px
+}
+#p2nd .theadMain .subMark {
+	COLOR: #495a4a
+}
+#p3rd .theadMain .subMark {
+	COLOR: #495a4a
+}
+#p4th .theadMain .subMark {
+	COLOR: #495a4a
+}
+#p5th .theadMain .subMark {
+	COLOR: #495a4a
+}
+#p6th .theadMain .subMark {
+	COLOR: #495a4a
+}
+#p2nd .theadMain .subMark A {
+	COLOR: #495a4a
+}
+#p3rd .theadMain .subMark A {
+	COLOR: #495a4a
+}
+#p4th .theadMain .subMark A {
+	COLOR: #495a4a
+}
+#p5th .theadMain .subMark A {
+	COLOR: #495a4a
+}
+#p6th .theadMain .subMark A {
+	COLOR: #495a4a
+}
+.Div_common .lbox1 .ulPic .iTheme A {
+	COLOR: #495a4a
+}
+.Div_common .lbox2 .divTxt P A {
+	COLOR: #495a4a
+}
+#p5th .rbox1 .rPic2 A {
+	COLOR: #495a4a
+}
+#p2nd .rHead A {
+	COLOR: #495a4a
+}
+#p2nd .theadMain .subMark A:hover {
+	TEXT-DECORATION: underline
+}
+#p3rd .theadMain .subMark A:hover {
+	TEXT-DECORATION: underline
+}
+#p4th .theadMain .subMark A:hover {
+	TEXT-DECORATION: underline
+}
+#p5th .theadMain .subMark A:hover {
+	TEXT-DECORATION: underline
+}
+#p6th .theadMain .subMark A:hover {
+	TEXT-DECORATION: underline
+}
+#p2nd .mbox1 {
+	BACKGROUND: url(health_bg2.jpg) no-repeat
+}
+.Div_common .mbox1 {
+	BACKGROUND: url(health_bg3.jpg) no-repeat
+}
+.Div_common .ulTxt LI {
+	PADDING-LEFT: 10px; BACKGROUND: url(arrow.gif) no-repeat 0px 7px
+}
+.Div_common .ulPic .iTxt EM {
+	PADDING-LEFT: 10px; BACKGROUND: url(arrow.gif) no-repeat 0px 7px
+}
+.right240 .rExp LI {
+	PADDING-LEFT: 10px; BACKGROUND: url(arrow.gif) no-repeat 0px 7px
+}
+#p2nd .ulPic .iTheme {
+	BACKGROUND: url(arrowPoint.gif) no-repeat
+}
+.Div_common .lbox1 .thead {
+	BACKGROUND: url(arrowPoint.gif) no-repeat
+}
+.Div_common .lbox1 {
+	MARGIN-LEFT: 10px
+}
+.Div_common .ulTxt {
+	MARGIN-LEFT: 10px
+}
+.Div_common .right300 .ulTxt LI {
+	FONT-SIZE: 12px
+}
+.Div_common .ulTxt LI {
+	FONT-SIZE: 14px; LINE-HEIGHT: 24px
+}
+.Div_common .ulPic .iTxt EM {
+	FONT-SIZE: 14px; LINE-HEIGHT: 24px
+}
+.Div_common .ulPic LI {
+	FLOAT: left
+}
+.Div_common .ulPic I {
+	DISPLAY: block
+}
+.Div_common .ulPic EM {
+	DISPLAY: block
+}
+.Div_common .ulPic .liPic {
+	BACKGROUND: url(plpicbg.gif) no-repeat left bottom; WIDTH: 135px
+}
+.Div_common .ulPic .liInfo {
+	MARGIN-LEFT: 15px; WIDTH: 240px
+}
+.Div_common .ulPic .iTxt {
+	MARGIN-TOP: 5px
+}
+#p2nd {
+	MARGIN-TOP: 10px
+}
+#p3rd {
+	MARGIN-TOP: 10px
+}
+#p4th {
+	MARGIN-TOP: 10px
+}
+#p5th {
+	MARGIN-TOP: 10px
+}
+#p6th {
+	MARGIN-TOP: 10px
+}
+#p5th .lbox1 .ulTxt {
+	MARGIN-BOTTOM: 0px
+}
+#p6th .lbox1 .ulTxt {
+	MARGIN-BOTTOM: 0px
+}
+#p5th .lbox1 .borderNone {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#p5th .mbox1 UL.borderNone {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#p6th .lbox1 .borderNone {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#p3rd .lbox1 .ulTxt LI {
+	FLOAT: left; WIDTH: 47%
+}
+#p4th .lbox1 .ulTxt LI {
+	FLOAT: left; WIDTH: 47%
+}
+#p5th .lbox1 .ulTxt LI {
+	FLOAT: left; WIDTH: 47%
+}
+#p6th .lbox1 .ulTxt LI {
+	FLOAT: left; WIDTH: 47%
+}
+.Div_common .lbox1 .thead {
+	MARGIN-TOP: 5px; PADDING-TOP: 12px; HEIGHT: 20px
+}
+.Div_common .lbox1 .thead SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.Div_common .lbox1 .iTheme {
+	LINE-HEIGHT: 24px
+}
+.Div_common .lbox1 .iTheme STRONG {
+	FONT-SIZE: 14px
+}
+.Div_common .lbox1 .ulTxt {
+	PADDING-BOTTOM: 10px; MARGIN: 10px 0px; WIDTH: 100%; BORDER-BOTTOM: #d4d4d4 1px dashed
+}
+.Div_common .lbox2 .divTxt {
+	DISPLAY: inline; BACKGROUND: #f5f5f5; FLOAT: left; MARGIN-LEFT: 7px; WIDTH: 195px
+}
+.Div_common .lbox2 .divTxt P {
+	FLOAT: left
+}
+.Div_common .lbox2 .divTxt UL {
+	FLOAT: left
+}
+.Div_common .lbox2 .divTxt P {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(health_titlebg2.gif) no-repeat; WIDTH: 22px; PADDING-TOP: 30px; HEIGHT: 84px; TEXT-ALIGN: center
+}
+.Div_common .lbox2 .divTxt .ulTxt {
+	PADDING-TOP: 10px
+}
+.Div_common .mbox1 .thead {
+	PADDING-TOP: 20px; HEIGHT: 25px
+}
+.Div_common .mbox1 .ulPic LI {
+	DISPLAY: inline; MARGIN-LEFT: 10px
+}
+.Div_common .mbox1 .eTitle {
+	BORDER-TOP: #fff 1px solid; LINE-HEIGHT: 24px; TEXT-ALIGN: center
+}
+.Div_common .mbox1 .ulTxt {
+	MARGIN-TOP: 15px
+}
+#p2nd .lbox1 {
+	MARGIN-TOP: 15px
+}
+#p2nd .lbox1 .ulPic .eTitle {
+	LINE-HEIGHT: 20px; TEXT-ALIGN: center
+}
+#p2nd .lbox1 .ulPic .eDes {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; COLOR: #818181; LINE-HEIGHT: 20px; PADDING-TOP: 3px
+}
+#p2nd .lbox1 .ulPic .iTheme {
+	BACKGROUND-POSITION: 0px 5px; PADDING-LEFT: 15px; FONT-SIZE: 12px; LINE-HEIGHT: 24px
+}
+#p2nd .lbox1 .ulPic .iTheme STRONG {
+	DISPLAY: block
+}
+#p2nd .mbox1 .ulTxt {
+	MARGIN-TOP: 0px
+}
+P.checkBody {
+	BACKGROUND: url(health_twobtn.gif) no-repeat 50% top; HEIGHT: 44px
+}
+P.checkBody A {
+	DISPLAY: block; HEIGHT: 22px
+}
+#p3rd .lbox1 .ulPic {
+	HEIGHT: 100px
+}
+#p4th .lbox1 .ulPic {
+	HEIGHT: 100px
+}
+#p3rd .mbox1 .ulPic {
+	HEIGHT: 125px
+}
+#p4th .mbox1 .ulPic {
+	HEIGHT: 125px
+}
+#p6th .mbox1 .ulPic {
+	HEIGHT: 125px
+}
+#p5th .mbox1 {
+	PADDING-TOP: 8px
+}
+#p5th .mHead {
+	PADDING-RIGHT: 0px; BORDER-TOP: #fff 1px dotted; PADDING-LEFT: 50px; BACKGROUND: url(health_titlebg3.gif) no-repeat; PADDING-BOTTOM: 5px; PADDING-TOP: 10px; HEIGHT: 20px
+}
+#p5th .mIcon1 {
+	BACKGROUND-POSITION: 5px 0px
+}
+#p5th .mIcon2 {
+	BACKGROUND-POSITION: 5px -35px
+}
+#p5th .mIcon3 {
+	BACKGROUND-POSITION: 5px -73px
+}
+#p5th .mIcon4 {
+	BACKGROUND-POSITION: 5px -110px
+}
+#p5th .mbox1 .ulPic {
+	BORDER-BOTTOM: #d2d2d2 1px dotted; HEIGHT: 76px
+}
+#p5th .mbox1 .ulPic .liInfo {
+	WIDTH: 210px
+}
+#p5th .mbox1 .ulPic .liPic {
+	WIDTH: 60px
+}
+#p5th .mbox1 .ulPic .liInfo .iTxt {
+	MARGIN-TOP: 0px
+}
+#p5th .mbox1 .ulPic .liInfo .iTxt EM {
+	FONT-SIZE: 12px
+}
+#p5th .box725 .ulTxt {
+	BORDER-TOP: #d2d2d2 1px dashed; MARGIN-LEFT: 0px; HEIGHT: 100px
+}
+#p5th .box725 .ulTxt LI {
+	DISPLAY: inline; FONT-SIZE: 12px; BACKGROUND: url(health_box.gif) #f3f3f3 no-repeat 0px 0px; FLOAT: left; MARGIN: 6px 0px 0px 4px; WIDTH: 48%; LINE-HEIGHT: 29px
+}
+.right240 .rExp {
+	PADDING-LEFT: 10px
+}
+#p3rd .rbox2 P {
+	PADDING-LEFT: 10px
+}
+#p5th .rbox1 .rPic2 {
+	PADDING-LEFT: 10px
+}
+#p3rd .rbox3 {
+	BORDER-BOTTOM-STYLE: none
+}
+#p4th .rbox3 {
+	BORDER-BOTTOM-STYLE: none
+}
+#p5th .rbox2 {
+	BORDER-BOTTOM-STYLE: none
+}
+#p6th .rbox3 {
+	BORDER-BOTTOM-STYLE: none
+}
+#p2nd .rHead {
+	DISPLAY: inline; BACKGROUND: url(health_icon.gif) no-repeat; FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 20px; BORDER-TOP-STYLE: none; PADDING-TOP: 25px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#p2nd .rHead STRONG {
+	FONT-SIZE: 14px
+}
+#p2nd .right240 {
+	PADDING-TOP: 15px
+}
+#p2nd .rbox1 .clickbody {
+	FLOAT: left; MARGIN: 0px 10px; WIDTH: 90px
+}
+#p2nd .rbox1 #checkBody {
+	FLOAT: left; WIDTH: 85px
+}
+#p2nd .rBody .sliderwrapper {
+	CLEAR: none; PADDING-TOP: 0px
+}
+#p2nd .rbox1 P {
+	MARGIN-BOTTOM: 10px; LINE-HEIGHT: 20px
+}
+#p3rd .rbox2 {
+	PADDING-BOTTOM: 10px
+}
+#p3rd .rbox3 {
+	PADDING-BOTTOM: 10px
+}
+#p4th .rBody {
+	PADDING-BOTTOM: 10px
+}
+#p6th .rBody {
+	PADDING-BOTTOM: 10px
+}
+#p3rd .rbox2 P {
+	MARGIN: 10px 0px
+}
+#p3rd .rbox2 P SPAN {
+	DISPLAY: block; MARGIN: 10px 0px; COLOR: #e47923
+}
+#p3rd .rbox2 P EM {
+	COLOR: #e47923
+}
+#p3rd .rbox2 P INPUT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN-RIGHT: 5px; BORDER-BOTTOM: #ccc 1px solid
+}
+#p4th .rbox2 .rPic2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#p4th .rbox2 .rPic2 IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#p4th .rbox2 .rPic2 LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 5px 0px 5px 10px
+}
+#p4th .rbox2 .rPic2 LI I {
+	DISPLAY: block
+}
+#p4th .rBody .rTxt {
+	MARGIN-TOP: 3px
+}
+#p5th .rbox1 .rPic2 LI {
+	WIDTH: 220px; TEXT-ALIGN: center
+}
+#p5th .rbox1 .rPic2 LI I {
+	DISPLAY: block
+}
+#p5th .rbox1 .rPic2 .iTitle {
+	MARGIN-TOP: 3px; LINE-HEIGHT: 24px
+}
+#p5th .pagination {
+	CLEAR: both; PADDING-LEFT: 5px; BACKGROUND: url(health_tagbg.gif) no-repeat 0px 22px; HEIGHT: 32px
+}
+#p5th .pagination SPAN {
+	DISPLAY: block; BACKGROUND: url(health_tag.gif) no-repeat 3px 0px; WIDTH: 70px; COLOR: #c53d85; PADDING-TOP: 5px; HEIGHT: 27px; TEXT-ALIGN: center
+}
+#pEnd .left725 .friendLinks P {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 25px; COLOR: #485b48
+}
+#pEnd .right240 .rbox1 P {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 25px; COLOR: #485b48
+}
+#pEnd {
+	PADDING-BOTTOM: 10px
+}
+#pEnd .outerbox {
+	BORDER-RIGHT: #d9d9d9 1px solid; BORDER-TOP: #d9d9d9 1px solid; DISPLAY: inline; MARGIN: 10px 0px 0px 10px; BORDER-LEFT: #d9d9d9 1px solid; WIDTH: 715px; BORDER-BOTTOM: #d9d9d9 1px solid
+}
+#pEnd .left725 .friendLinks {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 10px; BACKGROUND: #f8f8f8; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #fff 1px solid
+}
+#pEnd .left725 .friendLinks TABLE TR TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; PADDING-TOP: 0px
+}
+#pEnd .left725 .friendLinks TABLE TR TD IMG {
+	BORDER-RIGHT: #d3d3d3 1px solid; BORDER-TOP: #d3d3d3 1px solid; BORDER-LEFT: #d3d3d3 1px solid; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+#pEnd .contact {
+	BORDER-RIGHT: #d9d9d9 1px solid; BORDER-TOP: #d9d9d9 1px solid; MARGIN-TOP: 10px; DISPLAY: inline; BORDER-LEFT: #d9d9d9 1px solid; BORDER-BOTTOM: #d9d9d9 1px solid
+}
+#pEnd .rbox1 {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 8px; BACKGROUND: #f8f8f8; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #fff 1px solid; HEIGHT: 53px
+}
+#pEnd .rbox1 P {
+	WIDTH: 20px
+}
+#pEnd .rbox1 SPAN {
+	LINE-HEIGHT: 17px
+}
+.qknowdiv {
+	BACKGROUND: url(qkbg.jpg) repeat-x 0px 5px
+}
+.qktext {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 100px; BACKGROUND: url(kwlogo.jpg) no-repeat 0px 8px; COLOR: #898989; PADDING-TOP: 25px
+}
+.qktext SPAN {
+	COLOR: #f00
+}
+.qknow {
+	BACKGROUND: #fff; PADDING-TOP: 8px; HEIGHT: 25px
+}
+.btninput {
+	FLOAT: left; WIDTH: 157px
+}
+.txtinput {
+	FLOAT: left; WIDTH: 240px
+}
+.txtinput INPUT {
+	BORDER-TOP: #b3b3b3 1px solid; BACKGROUND: url(searchin.gif) repeat-x; FLOAT: left; MARGIN-LEFT: 3px; BORDER-LEFT: #b3b3b3 1px solid; WIDTH: 100%; COLOR: #666; LINE-HEIGHT: 21px; BORDER-BOTTOM: #b3b3b3 1px solid; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
+}
+.searchbut {
+	BACKGROUND: url(scan.jpg) no-repeat; WIDTH: 75px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 25px; BORDER-BOTTOM-STYLE: none
+}
+.ansowbut {
+	BACKGROUND: url(tw.jpg) no-repeat; WIDTH: 75px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 25px; BORDER-BOTTOM-STYLE: none
+}
+#p1st .right240 .rBox2 .zq {
+	BORDER-RIGHT: #dae4db 1px solid; BORDER-TOP: #dae4db 1px solid; PADDING-LEFT: 35px; BACKGROUND: url(jk_jbk.gif) #f9f9f7 no-repeat 5px center; MARGIN-BOTTOM: 8px; BORDER-LEFT: #dae4db 1px solid; BORDER-BOTTOM: #dae4db 1px solid; HEIGHT: 120px
+}
+#p1st .right240 .rBox2 .zq A {
+	BACKGROUND: url(arrow.gif) no-repeat left 6px; FLOAT: left; OVERFLOW: hidden; WIDTH: 33.3%; TEXT-INDENT: 8px; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+#p1st .right240 .rBox3 THEAD {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .forum {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .author {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .award {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .awardLeft {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .replyCount {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .viewCount {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .createTime {
+	DISPLAY: none
+}
+#p1st .right240 .rBox3 .lastUpdate {
+	DISPLAY: none
+}
+.f5{
+	width:100%;overflow:hidden;clear:both;padding-bottom:10px;
+}
+.f5 li{
+	float:left;line-height:14px;white-space:nowrap;padding:8px 10px 0;
+}
+.f5 li a{
+	color:#666;float:left;
+}

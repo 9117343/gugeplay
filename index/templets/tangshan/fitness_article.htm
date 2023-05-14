@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.title/}" />
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/_g.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/p/n_view.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/p/channel_fitness.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function checkSubmit(){
+   if(document.feedback.msg.value!='') document.feedback.submit();
+   else alert("评论内容不能为空！");
+}
+function postBadGood(ftype,fid){
+   var taget_obj = document.getElementById(ftype+fid);
+   var saveid = GetCookie('badgoodid');
+   if(saveid != null)
+   {
+      var saveids = saveid.split(',');
+      var hasid = false;
+      saveid = '';
+      j = 1;
+      for(i=saveids.length-1;i>=0;i--){
+         if(saveids[i]==fid && hasid) continue;
+         else {
+            if(saveids[i]==fid && !hasid) hasid = true;
+            saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+            j++;
+            if(j==10 && hasid) break;
+            if(j==9 && !hasid) break;
+         }
+      }
+      if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+      else saveid += ','+fid;
+      SetCookie('badgoodid',saveid,1);
+   }
+   else
+   {
+      SetCookie('badgoodid',fid,1);
+   }
+   myajax = new DedeAjax(taget_obj,false,false,'','','');
+   myajax.SendGet2("{dede:field name='phpurl'/}/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+   DedeXHTTP = null;
+}
+function postDigg(ftype,aid){
+   var taget_obj = document.getElementById('newdigg');
+   var saveid = GetCookie('diggid');
+   if(saveid != null)
+   {
+      var saveids = saveid.split(',');
+      var hasid = false;
+      saveid = '';
+      j = 1;
+      for(i=saveids.length-1;i>=0;i--)
+      {
+         if(saveids[i]==aid && hasid) continue;
+         else {
+            if(saveids[i]==aid && !hasid) hasid = true;
+            saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+            j++;
+            if(j==20 && hasid) break;
+            if(j==19 && !hasid) break;
+         }
+      }
+      if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+      else saveid += ','+aid;
+      SetCookie('diggid',saveid,1);
+   }
+   else
+   {
+      SetCookie('diggid',aid,1);
+   }
+   myajax = new DedeAjax(taget_obj,false,false,'','','');
+   var url = "{dede:global.cfg_phpurl/}/digg_ajax.php?action="+ftype+"&id="+aid;
+   myajax.SendGet2(url);
+   DedeXHTTP = null;
+}
+function getDigg(aid){
+   var taget_obj = document.getElementById('newdigg');
+   myajax = new DedeAjax(taget_obj,false,false,'','','');
+   myajax.SendGet2("{dede:global.cfg_phpurl/}/digg_ajax.php?id="+aid);
+   DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body>
+<div id="header">
+{dede:include filename="/nvxing/head.htm"/}
+   <div class="menu_fitness_tab">
+      <ul>
+         <li><a href="/">首页</a></li>{dede:channel type='top' row='15'}
+         <li class="menu_line"><a href='[field:typeurl/]'>[field:typename/]</a></li>{/dede:channel}
+      </ul>
+   </div>
+   <div class="menu_nav_tab">
+      <div class="menu_nav_l"></div>
+      <div class="menu_nav_c">
+      <form action="{dede:field name='phpurl'/}/search.php" name="formsearch">
+         <div class="search_tab">
+            <div class="search_title">搜索</div>
+            <input type="hidden" name="kwtype" value="0" />
+            <input type="hidden" name="searchtype" value="titlekeyword" />
+            <div class="search_con"><input type="text" name="keyword" id="keyword" class="search_input" /></div>
+            <div class="search_button"><input type="image" src="{dede:global.cfg_templeturl/}/nvxing/m_imgs/search_button.gif" width="60" height="22" name="button" id="button" value="" /></div>
+         </div>
+      </form>
+      <a href="/user/" target="_blank">幸福百像园</a> | <a href="/wish/" target="_blank">爱墙许愿</a> | <a href="/ask/" target="_blank">女性问吧</a> | <a href="/book/" target="_blank">恋爱故事</a> | <a href="{dede:global.cfg_dataurl/}/sitemap.html" target="_blank">网站地图</a>
+      </div>
+      <div class="menu_nav_r"></div>
+   </div>
+   <div class="clear"></div>
+</div>
+
+<div class="tong_top_ad">
+   <div class="two_ad">
+      <span>{dede:myad name='1'/}</span>
+	  <ul>
+      {dede:myad name='2'/}
+	  </ul>
+   </div>
+   <div class="two_ad">
+      <span>{dede:myad name='3'/}</span>
+	  <ul>
+	  {dede:myad name='4'/}
+	  </ul>
+   </div>
+   <div class="test_ad">
+      <ul>
+	  {dede:myad name='5'/}
+	  </ul>
+   </div>
+   <div class="clear"></div>
+</div>
+
+<div class="c_place_nav">
+   <span><a href="../../"><< 返回上一频道</a></span>
+   您现在的位置：{dede:field name='position'/}
+</div>
+<div id="n_main">
+   <div id="n_container">
+      <div class="n_news_content_tab">
+         <h1>{dede:field.title/}</h1>
+         <div class="n_info">{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}　来源：{dede:field.source/}　作者：{dede:field.writer/}　已有 <b><script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script></b> 人关注</div>
+         <div class="n_content">
+            {dede:field.body/}      
+            <div class="n_content_page">
+            {dede:pagebreak/}
+            </div>
+            <div class="clear"></div>
+         </div>
+         <div class="newdigg" id="newdigg">
+            <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',{dede:field.id/})">
+               <div class="digg_act">顶一下</div>
+               <div class="digg_num">({dede:field.goodpost/})</div>
+               <div class="digg_percent">
+                  <div class="digg_percent_bar"><span style="width:{dede:field.goodper/}%"></span></div>
+                  <div class="digg_percent_num">{dede:field.goodper/}%</div>
+               </div>
+            </div>
+            <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',{dede:field.id/})">
+               <div class="digg_act">踩一下</div>
+               <div class="digg_num">({dede:field.badpost/})</div>
+               <div class="digg_percent">
+                  <div class="digg_percent_bar"><span style="width:{dede:field.badper/}%"></span></div>
+                  <div class="digg_percent_num">{dede:field.badper/}%</div>
+               </div>
+            </div>
+         </div>
+         <script language="javascript" type="text/javascript">getDigg({dede:field.id/});</script>
+         <div class="clear"></div>
+         <div class="news_ad"><center>{dede:myad name='6'/}</center></div>
+         <div class="n_nextnews">
+            <ul>
+               <li>{dede:prenext get='pre'/}</li>
+               <li>{dede:prenext get='next'/}</li>
+            </ul>
+         </div>
+      </div>
+      <div class="n_aboutnews">
+         <div class="n_aboutnews_top">与“{dede:field.keywords/}”有关的文章还有：</div>
+         <div class="n_aboutnews_text_con">
+            <ul>
+               {dede:likearticle eregtype='keyword' row='10' titlelen='38'}
+               <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+               {/dede:likearticle}
+            </ul>
+         </div>
+         <div class="n_aboutnews_pic_con">
+            {dede:arclist flag='c' row='4' titlelen='60'}
+            <div class="n_pic_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="146" height="108" /></a>
+               <h3><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,24)"/]</a></h3>
+            </div>
+            {/dede:arclist}
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="n_comment">
+         <div class="n_comment_top">
+            <span><a href="{dede:field name='phpurl'/}/feedback.php?aid={dede:field.id/}" target="_blank">【查看所有评论】</a></span>会员评论<a name="comment"></a>
+         </div>
+         <div class="n_comment_post">
+            <form action="{dede:field name='phpurl'/}/feedback.php" method="post" name="feedback">
+            <input type="hidden" name="action" value="send" />
+            <input type="hidden" name="comtype" value="comments">
+            <input type="hidden" name="aid" value="{dede:field name="id"/}" />
+            <input type="hidden" name="isconfirm" value="yes" />
+            <div class="dcmp-title">
+               <small>请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。</small>
+            </div>
+            <div class="dcmp-stand">
+               <strong>评价:</strong>
+               <input type="radio" name="feedbacktype" checked="1" value="feedback" id="dcmp-stand-neu" /><label for="dcmp-stand-neu"><img src="{dede:global.cfg_templeturl/}/images/cmt-neu.gif" />中立</label>
+               <input type="radio" name="feedbacktype" value="good" id="dcmp-stand-good" /><label for="dcmp-stand-good"><img src="{dede:global.cfg_templeturl/}/images/cmt-good.gif" />好评</label>
+               <input type="radio" name="feedbacktype" value="bad" id="dcmp-stand-bad" /><label for="dcmp-stand-bad"><img src="{dede:global.cfg_templeturl/}/images/cmt-bad.gif" />差评</label>
+            </div>
+            <div class="dcmp-content">
+               <textarea name="msg" id="msg" class="ipt-txt"></textarea>
+            </div>
+            <div class="dcmp-mood">
+               <strong>表情：</strong>
+               <input type="radio" name='face' value='6' checked="1" /><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-6.gif" />
+               <input type="radio" name='face' value='4'/><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-4.gif" />
+               <input type="radio" name='face' value='3'/><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-3.gif" />
+               <input type="radio" name='face' value='5'/><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-5.gif" />
+               <input type="radio" name='face' value='2'/><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-2.gif" />
+               <input type="radio" name='face' value='1'/><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-1.gif" />
+               <input type="radio" name='face' value='7'/><img src="{dede:global.cfg_templeturl/}/images/mood/ico-mood-7.gif" />
+            </div>
+            <div class="dcmp-post"><!--未登陆-->
+               <div class="dcmp-userinfo">
+                  帐号：<input type="text" name="username" id="username" class="ipt-txt" />密码：<input type="text" name="pwd" id="password" class="ipt-txt" /> <a href="/member/index_do.php?fmdo=user&dopost=regnew" target="_blank">快速注册</a> <input type="checkbox" name="notuser" id="dcmp-submit-guest" /><label for="dcmp-submit-guest">匿名</label>
+               </div>
+               <div class="dcmp-submit">
+                  <input type="button" value="马上发表" onClick="checkSubmit()" />
+               </div>
+            </div>
+            </form>
+            <div class="clear"></div>
+         </div>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div id="n_side">
+      <div class="n_side_pic_ggao">{dede:myad name='7'/}</div>
+      <div class="n_side_tab mt10">
+         <div class="n_side_top">TAGS排行</div>
+         <div class="n_side_con">
+         {dede:tag row='28' getall='1' sort='month'}<a href="[field:link/]">[field:tag /]</a> {/dede:tag}
+         </div>
+      </div>
+      <div class="n_side_tab mt10">
+         <div class="n_side_top">热门推荐</div>
+         <div class="n_side_con">
+            <div class="n_side_pack">
+               <div class="n_side_pic_pack fl">
+                  {dede:arclist flag='c' limit='4,5' row='1' titlelen='50'}
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:shorttitle function="cn_substr(@me,18)"/]</a></h4>
+                  {/dede:arclist}
+               </div>
+               <div class="n_side_pic_pack fr">
+                  {dede:arclist flag='c' limit='5,6' row='1' titlelen='50'}
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:shorttitle function="cn_substr(@me,18)"/]</a></h4>
+                  {/dede:arclist}
+               </div>
+               <div class="clear"></div>
+            </div>
+            <ul>
+               {dede:arclist flag='c' limit='6,14' row='8' titlelen='36'}
+               <li><a href="[field:arcurl /]">[field:title /]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="n_side_tab mt10">
+         <div class="n_side_top">精彩专题</div>
+         <div class="n_side_con">
+            <div class="n_side_pack">
+               <div class="n_side_pic_pack fl">
+                  {dede:arclist flag='b' row='1' titlelen='50'}
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h4>
+                  {/dede:arclist}
+               </div>
+               <div class="n_side_pic_pack fr">
+                  {dede:arclist flag='b' limit='1,2' row='1' titlelen='50'}
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h4>
+                  {/dede:arclist}
+               </div>
+               <div class="clear"></div>
+            </div>
+            <ul>
+               {dede:arclist flag='b' limit='2,10' row='8' titlelen='36'}
+               <li><a href="[field:arcurl /]">[field:title /]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="n_side_tab mt10">
+         <div class="n_side_top">点击排行</div>
+         <div class="n_side_con">
+            <div class="n_side_pack">
+               <div class="n_side_pic_pack fl">
+                  {dede:arclist orderby='click' row='1' titlelen='50'}
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h4>
+                  {/dede:arclist}
+               </div>
+               <div class="n_side_pic_pack fr">
+                  {dede:arclist orderby='click' limit='1,2' row='1' titlelen='50'}
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h4>
+                  {/dede:arclist}
+               </div>
+               <div class="clear"></div>
+            </div>
+            <ul>
+               {dede:arclist orderby='click' limit='2,10' row='8' titlelen='36'}
+               <li><a href="[field:arcurl /]">[field:title /]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="n_side_pic_ggao mt10">{dede:myad name='8'/}</div>
+      <div class="clear"></div>
+   </div>
+</div>
+{dede:include filename="/nvxing/footer.htm"/}
+</body>
+</html>
+ 

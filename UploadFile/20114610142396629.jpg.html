@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>唐山工作服|唐山职业装|工作服制服|唐山工作服|西服厂家|职业装定做|唐装旗袍|T恤批发|唐山宏盛制衣服装</title>
+<style type="text/css">
+<!--
+.STYLE1 {font-weight: bold}
+.STYLE2 {font-weight: bold}
+-->
+</style>
+</head>
+<body>
+<body>
+<p class="STYLE1">很抱歉，您要访问的页面不存在。</p>
+<h2 class="STYLE2">1、请检查您输入的地址是否正确。 </h2>
+<p class="STYLE2">2、通过<a  href="../../www.nowhi.html">唐山宏盛制衣</a>首页进行浏览。</p>
+<p class="STYLE2">3、到我的<a href="../../blog.html">博客</a>留言</p>
+<p class="STYLE2">4、或者登录<a href="../../mlist11.html">产品页面</a>寻找你心仪的款式</p>
+<p class="STYLE2">5、感谢您使用本站，如有疑问请联系我们站长QQ：hrrcw@qq.com。</p>
+
+<style type="text/css">
+<!--
+.STYLE1{
+color:#0000FF; 
+font-weight:bold; 
+font-size:25px}
+.STYLE2{font-size:15px; line-height:25px}
+body{
+margin-top:88px; 
+margin-left:300px}
+-->
+</style>
+</body>
+</html>
+

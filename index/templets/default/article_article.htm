@@ -1,0 +1,750 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+
+<meta name="keywords" content="{dede:field.keywords/}" />
+
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+
+<link href="/templets/style/show.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+
+<script language="javascript" type="text/javascript">
+
+<!--
+
+function CheckLogin(){
+
+	var taget_obj = document.getElementById('_ajax_feedback');
+
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+
+	myajax.SendGet2("/member/ajax_feedback.php");
+
+	DedeXHTTP = null;
+
+}
+
+function checkSubmit(){
+
+	if(document.feedback.msg.value!='') document.feedback.submit();
+
+	else alert("评论内容不能为空！");
+
+}
+
+function postBadGood(ftype,fid)
+
+{
+
+	var taget_obj = document.getElementById(ftype+fid);
+
+	var saveid = GetCookie('badgoodid');
+
+	if(saveid != null)
+
+	{
+
+		var saveids = saveid.split(',');
+
+		var hasid = false;
+
+		saveid = '';
+
+		j = 1;
+
+		for(i=saveids.length-1;i>=0;i--)
+
+		{
+
+			if(saveids[i]==fid && hasid) continue;
+
+			else {
+
+				if(saveids[i]==fid && !hasid) hasid = true;
+
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+
+				j++;
+
+				if(j==10 && hasid) break;
+
+				if(j==9 && !hasid) break;
+
+			}
+
+		}
+
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+
+		else saveid += ','+fid;
+
+		SetCookie('badgoodid',saveid,1);
+
+	}
+
+	else
+
+	{
+
+		SetCookie('badgoodid',fid,1);
+
+	}
+
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+
+	DedeXHTTP = null;
+
+}
+
+function postDigg(ftype,aid)
+
+{
+
+	var taget_obj = document.getElementById('newdigg');
+
+	var saveid = GetCookie('diggid');
+
+	if(saveid != null)
+
+	{
+
+		var saveids = saveid.split(',');
+
+		var hasid = false;
+
+		saveid = '';
+
+		j = 1;
+
+		for(i=saveids.length-1;i>=0;i--)
+
+		{
+
+			if(saveids[i]==aid && hasid) continue;
+
+			else {
+
+				if(saveids[i]==aid && !hasid) hasid = true;
+
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+
+				j++;
+
+				if(j==20 && hasid) break;
+
+				if(j==19 && !hasid) break;
+
+			}
+
+		}
+
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+
+		else saveid += ','+aid;
+
+		SetCookie('diggid',saveid,1);
+
+	}
+
+	else
+
+	{
+
+		SetCookie('diggid',aid,1);
+
+	}
+
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+
+	myajax.SendGet2(url);
+
+	DedeXHTTP = null;
+
+}
+
+function getDigg(aid)
+
+{
+
+	var taget_obj = document.getElementById('newdigg');
+
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+
+	DedeXHTTP = null;
+
+}
+
+
+
+-->
+
+</script>
+
+</head>
+
+
+
+<body>
+
+<!-- header-->
+
+{dede:include filename="head.htm"/}
+
+<!-- header end-->
+
+<div id="menu">
+
+	<div id="nav">
+
+	<ul id=navigationRegion>
+
+	<li class='index_hover'><a href="{dede:global.cfg_cmsurl/}/">首 页</a></li>
+
+       {dede:channel type='top' row='10' currentstyle="<li class='menu'><a href='~typelink~' ~rel~>~typename~</a></li>"}
+
+      	<li class='menu'><a href='[field:typeurl/]' [field:rel/]>[field:typename/]</a></li>
+
+    {/dede:channel}
+
+	</ul>
+
+	</div>
+
+	<div class=index_shr> 
+
+	<div class=son>
+
+	<ul>
+
+
+
+	</ul></div>
+
+  </div>
+
+
+
+<!--body -->
+
+<div id="mainbody">
+
+<!--index_top -->
+
+<div id="index_top">
+
+  <div id=mid_p><b>当前位置:</b> {dede:field name='position'/}  本文<script language='javascript' src='/image/wangzhai.js'></script>
+
+    <div class="clear"></div>
+
+</div>
+
+  <div id=mid_bn><script src='/plus/ad_js.php?aid=2' language='javascript'></script>
+
+     <div align="center"></div>   <div class="clear"></div>
+
+  </div>
+
+</div>
+
+<!--index_top end -->
+
+<!--index_body -->
+
+<div id="index_body">
+
+<!-- ritht-->
+
+<div id="text_nav_ai" class="right">
+
+<div id="baidu">
+
+	<!--右上广告位 -->
+
+	
+
+	<!--右上广告位 END -->
+
+	</div>
+
+	<div id="text_box">
+
+		<div id="pic_box_t">
+
+		<div class="titl_r">推荐内容</div>
+
+		<div class="mtitl"></div>
+
+		</div>
+
+        <div id="pic_box_ac">
+
+	 {dede:arclist flag='c' titlelen=18 type='image.' imgwidth='120' imgheight='90' row=2}
+
+	 <div class=box1>
+
+				<a href="[field:arcurl/]">[field:image/]</a><p><a href="[field:arcurl/]" class="cDGray">[field:title/]</a></p>	
+
+	 </div>
+
+   {/dede:arclist}
+
+
+
+	</div>
+
+	    <div id="text_box_c">
+
+	<ul>
+
+		{dede:arclist flag='c' titlelen='30' row='6'}
+
+		<li><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span><a href="[field:arcurl /]" title="[field:title /]"><EM></EM>[field:title /]</a></li>
+
+    {/dede:arclist}
+
+         <div class="clear"></div>
+
+		</ul>
+
+		</div>
+
+	</div>
+
+<div id="baidu"></div>
+
+<div id="text_box">
+
+		<div id="pic_box_t">
+
+		<div class="titl_r">热点内容</div>
+
+		<div class="mtitl"><a href="#" class="cGray"></a> <a href="#" class="cGray"></a></div>
+
+		</div>
+
+        <div id="pic_box_ac">
+
+   {dede:arclist row=10 orderby=click type='image.' imgwidth='120' imgheight='90' row=2}
+
+	<div class=box1><a href="[field:arcurl/]">[field:image/]</a><p><a href="[field:arcurl/]" class="cDGray">[field:title/]</a></p>	
+
+	</div>
+
+	{/dede:arclist}
+
+	</div>
+
+	    <div id="text_box_c">
+
+			<ul>
+
+		{dede:arclist row=10 orderby=click}
+
+			<li><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span><a href="[field:arcurl /]" title="[field:title /]"><EM></EM>[field:title /]</a></li>
+
+    {/dede:arclist}
+
+	    <div class="clear"></div>
+
+		</ul>
+
+		</div>
+
+	</div>
+
+		<!--右下广告位 -->
+
+    
+
+    <!--右下广告位 -->
+
+</div>
+
+
+
+
+
+<!--left -->
+
+<div id="pic_nav_ai">
+
+    <!--pic_box -->
+
+	<div id="pic_box">
+
+	<div class="viewbox">
+
+	<div id="pic_box_t">
+
+	<div class="title"><h1>{dede:field name="title" /}</h1></div>
+
+	</div>
+
+	<div id="text_box_i">
+
+		<div class="info">
+
+				时间:{dede:field name='pubdate' function='GetDateMk(@me)'/} 　作者:{dede:field.writer/}　点击: 
+
+				{dede:field name='click'/}次　来源: {dede:field.source/}</div>
+
+			<div class="content">
+
+			<div class="textbox">				
+
+				{dede:field.description runphp='yes'}
+
+                if(@me<>'' )@me = '<div class="intro">'.@me.'</div>';
+
+        {/dede:field.description}
+
+			 <p><div class="ggad" style="float: left" align="left"><script src='/plus/ad_js.php?aid=4' language='javascript'></script>
+
+</div>
+
+			 	{dede:field name='body' function='RndString(@me)'/}
+
+		<script language="JavaScript">
+
+    <!--
+
+    function copyUrl(url){
+
+    var content='';
+
+    window.clipboardData.setData("Text",url);
+
+    alert("复制成功，请粘贴到你的QQ/MSN上推荐给你的好友");
+
+    }//-->
+
+    </script>
+
+    <a href="javascript:copyUrl('{dede:field name='title'/}\n{dede:field name='arcurl'/}')">复制地址和好友共享</a></p>
+
+		  </div>
+
+	</div><!-- /content -->
+
+			<div class="showweb_pages">
+
+				<ul class="pagelist">
+
+           {dede:pagebreak/}         
+
+				</ul>
+
+			</div>
+
+	<!-- /pages -->
+
+    <div class="intro">
+
+    <p>相关创意</p>
+
+    {dede:likearticle row='10' titlelen='58'}
+
+    <p>· <a href='[field:arcurl/]'>[field:title/]</a></p>
+
+    {/dede:likearticle}
+
+    
+
+    </div>
+
+    			<div class="newdigg" id="newdigg">
+
+				<div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',{dede:field.id/})">
+
+					<div class="digg_act">我喜欢</div>
+
+					<div class="digg_num">({dede:field.goodpost/})</div>
+
+					<div class="digg_percent">
+
+						<div class="digg_percent_bar"><span style="width:{dede:field.goodper/}%"></span></div>
+
+						<div class="digg_percent_num">{dede:field.goodper/}%</div>
+
+					</div>
+
+				</div>
+
+				<div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',{dede:field.id/})">
+
+					<div class="digg_act">没意思</div>
+
+					<div class="digg_num">({dede:field.badpost/})</div>
+
+					<div class="digg_percent">
+
+						<div class="digg_percent_bar">style="width:{dede:field.badper/}%"</span></div>
+
+						<div class="digg_percent_num">{dede:field.badper/}%</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		   <script language="javascript" type="text/javascript">getDigg({dede:field.id/});</script>
+
+	<div class="clear"></div>
+
+	<div class="context">
+
+					<ul>
+
+					<table width="100%" border="0" align="center" class="ctl">
+
+  <tr>
+
+    <td width="33%" align="left">{dede:prenext get='pre'/}</td>
+
+    <td width="34%" align="center">↑上帝请打分↑</td>
+
+    <td width="33%" align="right">{dede:prenext get='next'/}</td>
+
+  </tr>
+
+</table>
+
+			  </ul>
+
+	</div>
+
+	</div>
+
+	</div>
+
+</div>	
+
+	<!-- -->
+
+	<div id="pic_box">
+
+	<div id="pic_box_t">
+
+	<div class="titl">最新图文资讯</div>
+
+	<div class="mtitl"><a href="#" class="cGray"></a></div>
+
+	</div>
+
+	
+
+	        <div id="pic_box_ac"><ul>
+
+	{dede:arclist titlelen=18 orderby='sortrank' type='image.' imgwidth='120' imgheight='90' row=8}
+
+	 <div class=box1>
+
+				<a href="[field:arcurl/]">[field:image/]</a><p><a href="[field:arcurl/]" class="cDGray">[field:title/]</a></p>	
+
+	 </div>
+
+</ul> {/dede:arclist}
+
+<div class="clear"></div>
+
+	</div>		
+
+	</div>
+
+	<!-- -->
+
+<div id="pic_box">
+
+	<div id="pic_box_t">
+
+	<div class="titl">新鲜评论</div>
+
+	<div class="mtitl"><a href="#" class="cGray"></a></div>
+
+	</div>
+
+<div id="text_box_c">
+
+<script language='javascript' type='text/javascript' src="/plus/feedback_js.php?aid={dede:field.id/}"></script>
+
+		<div class="clear"></div>
+
+		</ul>
+
+		</div>
+
+	</div>
+
+
+
+	<!-- -->
+
+	<div id="pic_box">
+
+	<div id="pic_box_t">
+
+	<div class="titl">发表评论</div>
+
+	<div class="mtitl"><a href="#" class="cGray"></a></div>
+
+	</div>
+
+<div id="text_box_c">
+
+	<ul>
+
+<!--评论 -->
+
+    
+
+    <!--评论 -->
+
+
+
+		<div class="clear"></div>
+
+		</ul>
+
+		</div>
+
+	</div>
+
+	<!-- -->
+
+    <!-- -->
+
+	<div class="clear"></div>
+
+	</div>
+
+</div>
+
+
+
+<div class="clear"></div>
+
+<div id=mid_f>
+
+    <div class="clear"></div>
+
+    <div align="center"></div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+<!--link -->
+
+<div id="footer">
+
+<div class="nav_c">
+
+<div class="dd">网站介绍：</div>
+
+<ul>
+
+<li><a href="/about/">关于我们</a></li>
+
+<li><a href="/about/contactus.html">联系我们</a></li>
+
+<li><a href="/about/help.html">常见问题</a></li>
+
+<li><a href="/about/announce.html">版权声明</a></li>
+
+<li><a href="/plus/flink_add.php">交换链接</a></li>
+
+</ul>
+
+</div>
+
+<div class="nav_c">
+
+<div class="dd">站点导航：</div>
+
+<ul>
+
+<li><a href="/tags.php">TAG标签</a></li>
+
+<li><a href="/data/sitemap.html">网站地图</a></li>
+
+<li><a href="/data/rssmap.html">RSS订阅</a></li>
+
+<li><a href="/bbs/">交流中心</a></li>
+
+<li><a href="" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.xinxianr.cn');return(false);" style="behavior: url(#default#homepage)">设为首页</a></li>
+
+<li><A  HREF="#" ONCLICK="window.external.addFavorite('http://www.xinxianr.cn','新鲜人')" TARGET="_self" TITLE="新鲜人">加入收藏</A></li>
+
+</ul>
+
+</div>
+
+<div class="nav_c">
+
+<div class="dd">特别声明：</div>
+
+<ul>
+
+<li>本站文字均为原创</li>
+
+<li>严格遵守 <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/" target="_blank">CC协议2.5</a></li>
+
+<li>转载请注明原文链接</li>
+
+<li>Q群：78309565</li>
+
+<li><script language="javascript" type="text/javascript" src="http://js.users.51.la/2267292.js"></script></li><li>
+
+<script type="text/javascript" charset="UTF-8" src="http://s.vdoing.com/u/57/29390.js"></script>
+
+<noscript><a href="http://www.vdoing.com" title="Vdoing StatsX No.29390"><img src="http://simg.vdoing.com/m/29390/x01.gif?noscript" border="0"></a></noscript></li>
+
+</ul>
+
+</div>
+
+<div class="logo"><a href="" title="新鲜人">新鲜人</a></div>
+
+</div>
+
+<div id="copyright">
+
+Copyright &copy; 2008-2009 <a href="http://www.xinxianr.cn">新鲜人</a>. All rights reserved. Powered by <a href="http://www.dedecms.com/" target="_blank">DeDeCMS</a>
+
+</div>
+
+<!--body end -->
+
+<script type="text/javascript">
+
+document.body.oncopy = function () { setTimeout( function () { var text = clipboardData.getData("text"); if (text) { text = text + "\r\n本篇文章来源于Chrome OS中文站 http://WWW.chromeosz.COM 原文链接："+location.href; clipboardData.setData("text", text); } }, 100 ) }
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+ 

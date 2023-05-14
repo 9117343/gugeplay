@@ -1,0 +1,4 @@
+INSERT INTO `zhiyezhuang_admin` VALUES('1','10','chenxp','c9343ca8c71526578187','admin','','','','1341926566','27.189.8.151');
+INSERT INTO `zhiyezhuang_admin` VALUES('3','10','lp3807592lp','ee1970ce3a5535d0d0f3','yang','Со±у','yang3807592@sina.com','','1281429880','120.4.191.236');
+INSERT INTO `zhiyezhuang_admin` VALUES('4','10','yang','781277d3945134154936','yang','','','','1305090623','110.250.232.212');
+INSERT INTO `zhiyezhuang_admin` VALUES('5','5','chen','218965eb72c92a549dd5','chen','','','','1341926318','27.191.110.120');

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:channeltitle order='backward' character='-'/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/_g.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/p/channel_list.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/p/channel_bride.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+{dede:include filename="/nvxing/head.htm"/}
+   <div class="menu_wedding_tab">
+      <ul>
+         <li><a href="/">首页</a></li>{dede:channel type='top' row='15'}
+         <li class="menu_line"><a href='[field:typeurl/]'>[field:typename/]</a></li>{/dede:channel}
+      </ul>
+   </div>
+   <div class="menu_nav_tab">
+      <div class="menu_nav_l"></div>
+      <div class="menu_nav_c">
+      <form action="{dede:field name='phpurl'/}/search.php" name="formsearch">
+         <div class="search_tab">
+            <div class="search_title">搜索</div>
+            <input type="hidden" name="kwtype" value="0" />
+            <input type="hidden" name="searchtype" value="titlekeyword" />
+            <div class="search_con"><input type="text" name="keyword" id="keyword" class="search_input" /></div>
+            <div class="search_button"><input type="image" src="{dede:global.cfg_templeturl/}/nvxing/m_imgs/search_button.gif" width="60" height="22" name="button" id="button" value="" /></div>
+         </div>
+      </form>
+      <a href="/user/" target="_blank">幸福百像园</a> | <a href="/wish/" target="_blank">爱墙许愿</a> | <a href="/ask/" target="_blank">女性问吧</a> | <a href="/book/" target="_blank">恋爱故事</a> | <a href="{dede:global.cfg_dataurl/}/sitemap.html" target="_blank">网站地图</a>
+      </div>
+      <div class="menu_nav_r"></div>
+   </div>
+   <div class="clear"></div>
+</div>
+
+<div class="tong_top_ad">
+   <div class="two_ad">
+      <span>{dede:myad name='1'/}</span>
+	  <ul>
+      {dede:myad name='2'/}
+	  </ul>
+   </div>
+   <div class="two_ad">
+      <span>{dede:myad name='3'/}</span>
+	  <ul>
+	  {dede:myad name='4'/}
+	  </ul>
+   </div>
+   <div class="test_ad">
+      <ul>
+	  {dede:myad name='5'/}
+	  </ul>
+   </div>
+   <div class="clear"></div>
+</div>
+
+<div class="c_place_nav">
+   <span>其他栏目： {dede:channel type='sun'}<a href="[field:typelink/]" target="_blank">[field:typename/]</a> | {/dede:channel} <a href="../"><< 返回上一频道</a></span>
+   您现在的位置：{dede:field name='position'/}
+</div>
+<div id="c_list_main">
+   <div id="c_list_container">
+      <div id="c_list_container_side">
+         {dede:arclist flag='c' row='6' titlelen='60'}
+         <div class="c_list_pic_pack">
+         <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+         <h3><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,24)"/]</a></h3>
+         </div>
+         {/dede:arclist}
+         <div class="clear"></div>
+      </div>
+      <div id="c_list_container_main">
+         <h4>{dede:field name='typename'/}</h4>
+         <ul>
+            {dede:list pagesize='30' titlelen='60'}
+            <li><a href="[field:arcurl /]" target="_blank">[field:title /]</a><span>　　[field:pubdate function="GetDateTimeMK(@me)"/]</span></li>
+            [field:global name='autoindex' runphp="yes"]
+            if(@me%5==0) @me="<div class='mylist'></div>";
+            else @me="";
+            [/field:global]
+            {/dede:list}
+         </ul>
+         <div class="page">
+            {dede:pagelist listitem="index,end,pre,next,pageno" listsize="8"/}
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div id="c_list_side">
+      <div class="c_list_side_tab">
+         <div class="c_list_side_tab_top">焦点透视</div>
+         <div class="c_list_side_tab_con">
+            {dede:arclist flag='f' row='1' titlelen='50'}
+            <div class="c_list_side_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="65" height="65" /></a>
+               <div class="c_list_side_pack_con">
+                  <h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,50)'/]...
+               </div>
+            </div>
+            {/dede:arclist}
+            <ul>
+               {dede:arclist flag='f' limit='1,11' row='10' titlelen='30'}
+               <li><a href="[field:arcurl/]">[field:title/]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="c_list_side_tab mt10">
+         <div class="c_list_side_tab_top">本月主打</div>
+         <div class="c_list_side_tab_con">
+            {dede:arclist flag='a' row='1' titlelen='50'}
+            <div class="c_list_side_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="65" height="65" /></a>
+               <div class="c_list_side_pack_con">
+                  <h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,50)'/]...
+               </div>
+            </div>
+            {/dede:arclist}
+            <ul>
+               {dede:arclist flag='a' limit='1,11' row='10' titlelen='30'}
+               <li><a href="[field:arcurl/]">[field:title/]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="c_list_side_tab mt10">
+         <div class="c_list_side_tab_top">精彩专题</div>
+         <div class="c_list_side_tab_con">
+            {dede:arclist flag='b' row='1' titlelen='50'}
+            <div class="c_list_side_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="65" height="65" /></a>
+               <div class="c_list_side_pack_con">
+                  <h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,50)'/]...
+               </div>
+            </div>
+            {/dede:arclist}
+            <ul>
+               {dede:arclist flag='b' limit='1,11' row='10' titlelen='30'}
+               <li><a href="[field:arcurl/]">[field:title/]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div class="clear"></div>
+</div>
+{dede:include filename="/nvxing/footer.htm"/}
+</body>
+</html>
+ 

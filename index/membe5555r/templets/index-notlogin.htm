@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title><?php echo $cfg_webname; ?>- 会员登录</title>
+
+<link href="templets/style/login.css" rel="stylesheet" type="text/css" />
+<script src="templets/js/j.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+function changeAuthCode() {
+	var num = 	new Date().getTime();
+	var rand = Math.round(Math.random() * 10000);
+	num = num + rand;
+	$('#ver_code').css('visibility','visible');
+	if ($("#vdimgck")[0]) {
+		$("#vdimgck")[0].src = "../include/vdimgck.php?tag=" + num;
+	}
+	return false;	
+}
+
+</script>
+</head>
+<body>
+<div class="header">
+  <div class="auto960">
+    <ul class="userMenu fRight">
+      <li> <a title="网站主页" href="../">网站主页</a> </li>
+      <li> <a title="注册" href="../member/index_do.php?fmdo=user&dopost=regnew">注册</a> </li>
+      <li> <a title="登录" href="../member/login.php">登录</a> </li>
+      <li class="help"> <a href="http://help.dedecms.com" title="DEDECMS 帮助中心" target="_blank">帮助</a> </li>
+    </ul>
+    <span>
+    <script type="text/javascript">
+ var now=(new Date()).getHours();
+ if(now>0&&now<=6){
+document.write("午夜好，");
+ }else if(now>6&&now<=11){
+ document.write("早上好，");
+ }el

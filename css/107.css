@@ -1,0 +1,25 @@
+/* CSS Document */
+
+#right{
+margin-left:2px;
+}
+#left{
+margin-left:2px;
+margin-right:0px;
+}
+#l_1{
+width:714px;
+height:25px;
+background:url(../img/15.jpg) no-repeat;
+margin:0px auto;
+font-size:14px;
+font-weight:700;
+color:#0066CC;
+padding-left:40px;
+padding-top:17px;
+}
+#l_2{
+width:752px;
+border:1px solid #CCCCCC;
+margin:0px auto;
+}

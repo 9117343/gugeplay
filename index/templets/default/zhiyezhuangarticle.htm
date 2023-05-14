@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>唐山{dede:field name='typename'/}-{dede:global.cfg_webname/} 电话:0315-2129514</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templeturl/}/tangshan/m_css/_g.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/tangshan/m_css/p/channel_list.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/tangshan/m_css/p/channel_man.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+{dede:include filename="head.htm"/}
+<div class="c_place_nav">
+   <span>其他栏目： {dede:channel type='sun'}<a href="[field:typelink/]" target="_blank">[field:typename/]</a> | {/dede:channel} <a href="../"><< 返回上一频道</a></span>
+   您现在的位置：{dede:field name='position'/}
+</div>
+<div id="c_list_main">
+   <div id="c_list_container">
+      <div id="c_list_container_side">
+         {dede:arclist flag='c' row='6' titlelen='60'}
+         <div class="c_list_pic_pack">
+         <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+         <h3><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,24)"/]</a></h3>
+         </div>
+         {/dede:arclist}
+         <div class="clear"></div>
+      </div>
+      <div id="c_list_container_main">
+         <h4>{dede:field name='typename'/}</h4>
+         <ul>
+            {dede:list pagesize='30' titlelen='60'}
+            <li><a href="[field:arcurl /]" target="_blank">[field:title /]</a><span>　　[field:pubdate function="GetDateTimeMK(@me)"/]</span></li>
+            [field:global name='autoindex' runphp="yes"]
+            if(@me%5==0) @me="<div class='mylist'></div>";
+            else @me="";
+            [/field:global]
+            {/dede:list}
+         </ul>
+         <div class="page">
+            {dede:pagelist listitem="index,end,pre,next,pageno" listsize="8"/}
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div id="c_list_side">
+      <div class="c_list_side_tab">
+         <div class="c_list_side_tab_top">焦点透视</div>
+         <div class="c_list_side_tab_con">
+            {dede:arclist flag='f' row='1' titlelen='50'}
+            <div class="c_list_side_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="65" height="65" /></a>
+               <div class="c_list_side_pack_con">
+                  <h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,50)'/]...
+               </div>
+            </div>
+            {/dede:arclist}
+            <ul>
+               {dede:arclist flag='f' limit='1,11' row='10' titlelen='30'}
+               <li><a href="[field:arcurl/]">[field:title/]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="c_list_side_tab mt10">
+         <div class="c_list_side_tab_top">本月主打</div>
+         <div class="c_list_side_tab_con">
+            {dede:arclist flag='a' row='1' titlelen='50'}
+            <div class="c_list_side_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="65" height="65" /></a>
+               <div class="c_list_side_pack_con">
+                  <h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,50)'/]...
+               </div>
+            </div>
+            {/dede:arclist}
+            <ul>
+               {dede:arclist flag='a' limit='1,11' row='10' titlelen='30'}
+               <li><a href="[field:arcurl/]">[field:title/]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="c_list_side_tab mt10">
+         <div class="c_list_side_tab_top">精彩专题</div>
+         <div class="c_list_side_tab_con">
+            {dede:arclist flag='b' row='1' titlelen='50'}
+            <div class="c_list_side_pack">
+               <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="65" height="65" /></a>
+               <div class="c_list_side_pack_con">
+                  <h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,50)'/]...
+               </div>
+            </div>
+            {/dede:arclist}
+            <ul>
+               {dede:arclist flag='b' limit='1,11' row='10' titlelen='30'}
+               <li><a href="[field:arcurl/]">[field:title/]</a></li>
+               {/dede:arclist}
+            </ul>
+         </div>
+         <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div class="clear"></div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>
+ 

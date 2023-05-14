@@ -1,0 +1,2 @@
+<a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="116" height="86" /></a>
+                  <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:shorttitle function="cn_substr(@me,18)"/]</a></h4>

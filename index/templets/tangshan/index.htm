@@ -1,0 +1,2375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>{dede:global.cfg_webname/} - 引领女性时尚潮流，享受健康生活每一天</title>
+
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+
+<meta name="description" content="{dede:global.cfg_description/}" />
+
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/_g.css" rel="stylesheet" type="text/css" />
+
+<link href="{dede:global.cfg_templeturl/}/nvxing/m_css/index.css" rel="stylesheet" type="text/css" />
+
+<script language="JavaScript" src="{dede:global.cfg_templeturl/}/nvxing/js/change.js"></script>
+
+</head>
+
+<body>
+
+<div id="header">
+
+{dede:include filename="/nvxing/head.htm"/}
+
+   <div class="menu_tab">
+
+      <div class="menu_tab_l"></div>
+
+      <div class="menu_tab_c">
+
+         <ul>
+
+            <li><a href="/">首页</a></li>{dede:channel type='top' row='15'}
+
+            <li class="menu_line"><a href='[field:typeurl/]'>[field:typename/]</a></li>{/dede:channel}
+
+         </ul>
+
+      </div>
+
+      <div class="menu_tab_r"></div>
+
+   </div>
+
+   <div class="menu_nav_tab">
+
+      <div class="menu_nav_l"></div>
+
+      <div class="menu_nav_c">
+
+      <form action="{dede:field name='phpurl'/}/search.php" name="formsearch">
+
+         <div class="search_tab">
+
+            <div class="search_title">搜索</div>
+
+            <input type="hidden" name="kwtype" value="0" />
+
+            <input type="hidden" name="searchtype" value="titlekeyword" />
+
+            <div class="search_con"><input type="text" name="keyword" id="keyword" class="search_input" /></div>
+
+            <div class="search_button"><input type="image" src="{dede:global.cfg_templeturl/}/nvxing/m_imgs/search_button.gif" width="60" height="22" name="button" id="button" value="" /></div>
+
+         </div>
+
+      </form>
+
+      <a href="http://home.378.cc" target="_blank">幸福百像园</a> | <a href="http://www.vivi.cc" target="_blank">vivi收藏夹</a> | <a href="http://www.k168.net" target="_blank">盒子社区</a> | <a href="http://bbs.378.cc" target="_blank">恋爱故事</a> | <a href="{dede:global.cfg_dataurl/}/sitemap.html" target="_blank">网站地图</a>
+
+      </div>
+
+      <div class="menu_nav_r"></div>
+
+   </div>
+
+   <div class="clear"></div>
+
+</div>
+
+
+
+<div class="tong_top_ad">
+
+   <div class="two_ad">
+
+      <span>{dede:myad name='1'/}</span>
+
+	  <ul>
+
+      {dede:myad name='2'/}
+
+	  </ul>
+
+   </div>
+
+   <div class="two_ad">
+
+      <span>{dede:myad name='3'/}</span>
+
+	  <ul>
+
+	  {dede:myad name='4'/}
+
+	  </ul>
+
+   </div>
+
+   <div class="test_ad">
+
+      <ul>
+
+	  {dede:myad name='5'/}
+
+	  </ul>
+
+   </div>
+
+   <div class="clear"></div>
+
+</div>
+
+
+
+<div id="i_main">
+
+   <div class="layout mt5">
+
+      <div class="i_container">
+
+         <div class="i_container_side">
+
+            <div class="slide_tab">
+
+            <script language='javascript'>
+
+            linkarr = new Array();
+
+            picarr = new Array();
+
+            textarr = new Array();
+
+            var swf_width=246;
+
+            var swf_height=256;
+
+            var files = "";
+
+            var links = "";
+
+            var texts = "";
+
+            {dede:arclist flag='f' row='5'}
+
+            linkarr[[field:global.autoindex/]] = "[field:arcurl/]";
+
+            picarr[[field:global.autoindex/]]  = "[field:litpic/]";
+
+            textarr[[field:global.autoindex/]] = "[field:title function='html2text(@me)'/]";
+
+            {/dede:arclist}
+
+            for(i=1;i<picarr.length;i++){
+
+               if(files=="") files = picarr[i];
+
+               else files += "|"+picarr[i];
+
+            }
+
+            for(i=1;i<linkarr.length;i++){
+
+               if(links=="") links = linkarr[i];
+
+               else links += "|"+linkarr[i];
+
+            }
+
+            for(i=1;i<textarr.length;i++){
+
+               if(texts=="") texts = textarr[i];
+
+               else texts += "|"+textarr[i];
+
+            }
+
+            document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+
+            document.write('<param name="movie" value="{dede:global.cfg_templeturl/}/nvxing/m_imgs/slide.swf"><param name="quality" value="high">');
+
+            document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+
+            document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'">');
+
+            document.write('<embed src="{dede:global.cfg_templeturl/}/nvxing/m_imgs/slide.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+
+            document.write('</object>'); 
+
+            </script>
+
+            </div>
+
+            <div class="i_tab_pack mt5">
+
+               <div class="i_tab_pack_top">
+
+                  <div class="i_tab_pack_top_l"></div>
+
+                  <div class="i_tab_pack_top_c">本月主打</div>
+
+                  <div class="i_tab_pack_top_r"></div>
+
+               </div>
+
+               <div class="i_tab_pack_con">
+
+                  <ul>
+
+                  {dede:arclist typeid='22' flag='f' row='3' titlelen='60'}
+
+                  <li>
+
+                     <div class="rec_pack">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="76" height="76" /></a>
+
+                        <div class="rec_pack_tab">
+
+                           <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,21)"/]</a></h2>
+
+                           <div class="rec_pack_tab_con">[field:description function='cn_substr(@me,66)'/]...</div>
+
+                        </div>
+
+                     </div>
+
+                  </li>
+
+                  {/dede:arclist}
+
+                  <div class="i_tab_pack_mask"></div>
+
+                  </ul>
+
+               </div>
+
+            </div>
+
+         </div>
+
+         <div class="i_container_main">
+
+            <div class="i_todaynews_tab">
+
+               <div class="i_todaynews_top">
+
+                  <div class="i_todaynews_top_l"></div>
+
+                  <div class="i_todaynews_top_c">
+
+                     <div onmouseover="change('1',5,'1')" id="t1_1" class="tag tag_on">服饰</div>
+
+                     <div onmouseover="change('1',5,'2')" id="t1_2" class="tag tag_off">美容</div>
+
+                     <div onmouseover="change('1',5,'3')" id="t1_3" class="tag tag_off">美体</div>
+
+                     <div onmouseover="change('1',5,'4')" id="t1_4" class="tag tag_off">奢品</div>
+
+                     <div onmouseover="change('1',5,'5')" id="t1_5" class="tag tag_off">花嫁</div>
+
+                  </div>
+
+                  <div class="i_todaynews_top_r"></div>
+
+               </div>
+
+               <div class="i_todaynews_tab_con">
+
+                  <div id="d1_1">
+
+                  {dede:arclist typeid='6' flag='h' row='1' titlelen='50'}
+
+                  <h2><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h2>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='6' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+                  </div>
+
+                  <div id="d1_2" style="display:none;">
+
+                  {dede:arclist typeid='7' flag='h' row='1' titlelen='50'}
+
+                  <h2><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h2>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='7' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+                  </div>
+
+                  <div id="d1_3" style="display:none;">
+
+                  {dede:arclist typeid='8' flag='h' row='1' titlelen='50'}
+
+                  <h2><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h2>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='8' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+                  </div>
+
+                  <div id="d1_4" style="display:none;">
+
+                  {dede:arclist typeid='9' flag='h' row='1' titlelen='50'}
+
+                  <h2><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h2>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='9' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+                  </div>
+
+                  <div id="d1_5" style="display:none;">
+
+                  {dede:arclist typeid='11' flag='h' row='1' titlelen='50'}
+
+                  <h2><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h2>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='11' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+                  </div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+            <div class="i_tnr_tab">
+
+               <ul>
+
+                  {dede:arclist typeid='0' row='10' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+                  <div class="clear"></div>
+
+               </ul>
+
+               <div class="i_tnr_tab_dotline"></div>
+
+               <ul>
+
+                  {dede:arclist typeid='0' limit='10,20' row='10' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+                  <div class="clear"></div>
+
+               </ul>
+
+               <div class="clear"></div>
+
+            </div>
+
+            <div class="i_rec_tab">
+
+               <div class="i_rec_title">小编推荐</div>
+
+               <div class="i_rec_con">
+
+                  <div class="scrollnews margintop" id="scrollnews">
+
+                     <ul id="scrollmsg">
+
+                        {dede:arclist flag='s' row='5' titlelen='50'}
+
+                        <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                        {/dede:arclist}
+
+                     </ul>
+
+                  </div>
+
+               </div>
+
+            </div>
+
+            <div class="i_focus_tab">
+
+               <div class="i_focus_top">
+
+                  <div class="i_focus_title"><a href="/talk/" target="_blank">焦点话题</a></div>
+
+               </div>
+
+               <div class="i_focus_con">
+
+                  <ul>
+
+                     {dede:arclist typeid='100' row='6' titlelen='36'}
+
+                     <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                     {/dede:arclist}
+
+                  </ul>
+
+                  {dede:arclist typeid='100' flag='c' row='1' titlelen='32'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="226" height="126" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_side">
+
+         <div class="bbs_pack">{dede:myad name='6'/}</div>
+
+         <div class="i_tab_pack mt10">
+
+            <div class="i_tab_pack_top">
+
+               <div class="i_tab_pack_top_l"></div>
+
+               <div class="i_tab_pack_top_c_2">时尚热门排行TOP10</div>
+
+               <div class="i_tab_pack_top_r"></div>
+
+            </div>
+
+            <div class="i_toplist_top">
+
+               <div onmouseover="change('2',4,'1')" id="t2_1" class="tag tag_on"><a href="/beauty/hfmr/" target="_blank">肌肤</a></div>
+
+               <div onmouseover="change('2',4,'2')" id="t2_2" class="tag tag_off"><a href="/fitness/fxqt/" target="_blank">丰胸</a></div>
+
+               <div onmouseover="change('2',4,'3')" id="t2_3" class="tag tag_off"><a href="/fitness/jfmj/" target="_blank">减肥</a></div>
+
+               <div onmouseover="change('2',4,'4')" id="t2_4" class="tag tag_off"><a href="/fashion/dpyd/" target="_blank">搭配</a></div>
+
+            </div>
+
+            <div class="i_toplist_con">
+
+               <div id="d2_1">
+
+                  <ul>
+
+                     {dede:arclist typeid='26' orderby='click' row='10' titlelen='24'}
+
+                     <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                     {/dede:arclist}
+
+                  </ul>
+
+               </div>
+
+               <div id="d2_2" style="display:none;">
+
+                  <ul>
+
+                     {dede:arclist typeid='32' orderby='click' row='10' titlelen='24'}
+
+                     <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                     {/dede:arclist}
+
+                  </ul>
+
+               </div>
+
+               <div id="d2_3" style="display:none;">
+
+                  <ul>
+
+                     {dede:arclist typeid='33' orderby='click' row='10' titlelen='24'}
+
+                     <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                     {/dede:arclist}
+
+                  </ul>
+
+               </div>
+
+               <div id="d2_4" style="display:none;">
+
+                  <ul>
+
+                     {dede:arclist typeid='22' orderby='click' row='10' titlelen='24'}
+
+                     <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                     {/dede:arclist}
+
+                  </ul>
+
+               </div>
+
+            </div>
+
+         </div>
+
+         <div class="i_tab_pack mt10">
+
+            <div class="i_tab_pack_top">
+
+               <div class="i_tab_pack_top_l"></div>
+
+               <div class="i_tab_pack_top_c_2">热门TAGS</div>
+
+               <div class="i_tab_pack_top_r"></div>
+
+            </div>
+
+            <div class="i_hottag_con">
+
+            {dede:tag row='22' getall='1' sort='month'}<a href="[field:link/]">[field:tag /]</a> {/dede:tag}
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="clear"></div>   
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_tab_clothes_top"><a href="/fashion/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/fashion/lxfs/" target="_blank">流行服饰</a> 
+
+               <a href="/fashion/dpyd/" target="_blank">搭配有道</a> 
+
+               <a href="/fashion/spfs/" target="_blank">饰品风尚</a> 
+
+               <a href="/fashion/nyqr/" target="_blank">内衣情人</a> 
+
+               <a href="/fashion/llxc/" target="_blank">靓丽秀场</a> 
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_tab_clothes_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='6' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+               </div>
+
+               <div class="i_c_special_tab">
+
+                  <div class="i_c_special_top i_c_clothes_special_top">精彩专题</div>
+
+                  <div class="i_c_special_con i_c_clothes_special_con">
+
+                     {dede:arclist typeid='6' flag='b' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fl">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                     {dede:arclist typeid='6' flag='b' limit='1,2' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fr">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='6' flag='h' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='6' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='6' row='10' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="layout mt5">
+
+                  <div class="i_c_rec_tab fl">
+
+                     <div class="i_c_rec_tab_top">
+
+                        <div class="i_c_rec_tab_title i_c_clothes_rec_tab_title">流行服饰</div>
+
+                        <div class="i_c_rec_tab_more"><a href="/fashion/lxfs/" target="_blank">更多</a></div>
+
+                     </div>
+
+                     <div class="i_c_rec_tab_con">
+
+                        <div class="layout">
+
+                           {dede:arclist typeid='21' flag='c' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fl">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                           {dede:arclist typeid='21' flag='c' limit='1,2' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fr">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                        </div>
+
+                        <ul>
+
+                           {dede:arclist typeid='21' flag='c' limit='2,5' row='3' titlelen='32'}
+
+                           <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                           {/dede:arclist}
+
+                        </ul>
+
+                     </div>
+
+                  </div>
+
+                  <div class="i_c_rec_tab fr">
+
+                     <div class="i_c_rec_tab_top">
+
+                        <div class="i_c_rec_tab_title i_c_clothes_rec_tab_title">搭配有道</div>
+
+                        <div class="i_c_rec_tab_more"><a href="/fashion/dpyd/" target="_blank">更多</a></div>
+
+                     </div>
+
+                     <div class="i_c_rec_tab_con">
+
+                        <div class="layout">
+
+                           {dede:arclist typeid='22' flag='c' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fl">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                           {dede:arclist typeid='22' flag='c' limit='1,2' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fr">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                        </div>
+
+                        <ul>
+
+                           {dede:arclist typeid='22' flag='c' limit='2,5' row='3' titlelen='32'}
+
+                           <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                           {/dede:arclist}
+
+                        </ul>
+
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_clothes_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='6' flag='s' row='1' titlelen='60'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_clothes_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_clothes_top"><span><a href="/fashion/spzd/" target="_blank">更多</a></span>饰品装点</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='23' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="layout mt5">
+
+            <div class="i_c_s_top i_c_s_clothes_top"><span><a href="/fashion/llxc/" target="_blank">更多</a></span>靓丽秀场</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='25' row='5' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="i_c_s_dotline"></div>
+
+         <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='25' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_beauty_tab_top"><a href="/beauty/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/beauty/hfyy/" target="_blank">护肤养颜</a>
+
+               <a href="/beauty/mfzx/" target="_blank">美发造型</a>
+
+               <a href="/beauty/llcz/" target="_blank">靓丽彩妆</a>
+
+               <a href="/beauty/xfwy/" target="_blank">香氛物语</a>
+
+               <a href="/beauty/mrcp/" target="_blank">美容产品</a>
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_beauty_tab_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='7' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+               </div>
+
+               <div class="i_c_special_tab">
+
+                  <div class="i_c_special_top i_c_beauty_special_top">精彩专题</div>
+
+                  <div class="i_c_special_con i_c_beauty_special_con">
+
+                     {dede:arclist typeid='7' flag='b' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fl">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                     {dede:arclist typeid='7' flag='b' limit='1,2' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fr">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='7' flag='h' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='7' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='7' row='10' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="i_c_recpic_tab">
+
+                  <div class="i_c_recpic_box">
+
+                     {dede:arclist typeid='26,27,29,30' flag='c' row='8' titlelen='50'}
+
+                     <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+                  <div class="clear"></div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_beauty_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='7' flag='s' row='1' titlelen='60'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_beauty_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_beauty_top"><span><a href="/beauty/hfyy/" target="_blank">更多</a></span>护肤养颜</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='26' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="layout mt5">
+
+            <div class="i_c_s_top i_c_s_beauty_top"><span><a href="/beauty/llcz/" target="_blank">更多</a></span>靓丽彩妆</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='28' row='5' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="i_c_s_dotline"></div>
+
+         <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='28' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_tab_fitness_top"><a href="/fitness/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/fitness/ssmr/" target="_blank">塑身美人</a> 
+
+               <a href="/fitness/jfmj/" target="_blank">减肥秘诀</a> 
+
+               <a href="/fitness/fxqt/" target="_blank">丰胸翘臀</a> 
+
+               <a href="/fitness/jfsp/" target="_blank">减肥食谱</a> 
+
+               <a href="/fitness/ydjs/" target="_blank">运动健身</a> 
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_tab_fitness_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='8' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+               </div>
+
+               <div class="i_c_special_tab">
+
+                  <div class="i_c_special_top i_c_fitness_special_top">精彩专题</div>
+
+                  <div class="i_c_special_con i_c_fitness_special_con">
+
+                     {dede:arclist typeid='8' flag='b' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fl">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                     {dede:arclist typeid='8' flag='b' limit='1,2' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fr">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='8' flag='h' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='8' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='8' row='10' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="layout mt5">
+
+                  <div class="i_c_rec_tab fl">
+
+                     <div class="i_c_rec_tab_top">
+
+                        <div class="i_c_rec_tab_title i_c_fitness_rec_tab_title">丰胸翘臀</div>
+
+                        <div class="i_c_rec_tab_more"><a href="/fitness/fxqt/" target="_blank">更多</a></div>
+
+                     </div>
+
+                     <div class="i_c_rec_tab_con">
+
+                        <div class="layout">
+
+                           {dede:arclist typeid='32' flag='c' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fl">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                           {dede:arclist typeid='32' flag='c' limit='1,2' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fr">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                        </div>
+
+                        <ul>
+
+                           {dede:arclist typeid='32' flag='c' limit='2,5' row='3' titlelen='32'}
+
+                           <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                           {/dede:arclist}
+
+                        </ul>
+
+                     </div>
+
+                  </div>
+
+                  <div class="i_c_rec_tab fr">
+
+                     <div class="i_c_rec_tab_top">
+
+                        <div class="i_c_rec_tab_title i_c_fitness_rec_tab_title">塑身美人</div>
+
+                        <div class="i_c_rec_tab_more"><a href="/fitness/ssmr/">更多</a></div>
+
+                     </div>
+
+                     <div class="i_c_rec_tab_con">
+
+                        <div class="layout">
+
+                           {dede:arclist typeid='31' flag='c' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fl">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                           {dede:arclist typeid='31' flag='c' limit='1,2' row='1' titlelen='60'}
+
+                           <div class="i_c_rec_imgbox fr">
+
+                              <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                           </div>
+
+                           {/dede:arclist}
+
+                        </div>
+
+                        <ul>
+
+                           {dede:arclist typeid='31' flag='c' limit='2,5' row='3' titlelen='32'}
+
+                           <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                           {/dede:arclist}
+
+                        </ul>
+
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_fitness_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='8' flag='s' row='1' titlelen='50'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_fitness_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_fitness_top"><span><a href="/fitness/jfmj/" target="_blank">更多</a></span>减肥秘诀</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='33' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="layout mt5">
+
+            <div class="i_c_s_top i_c_s_fitness_top"><span><a href="/fitness/jfsp/" target="_blank">更多</a></span>减肥食谱</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='34' row='5' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="i_c_s_dotline"></div>
+
+         <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='34' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_luxury_tab_top"><a href="/luxury/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/luxury/shsz/" target="_blank">奢华时装</a>
+
+               <a href="/luxury/ggdp/" target="_blank">高贵单品</a>
+
+               <a href="/luxury/djzj/" target="_blank">顶级座驾</a>
+
+               <a href="/luxury/zghz/" target="_blank">尊贵豪宅</a>
+
+               <a href="/luxury/djsd/" target="_blank">度假胜地</a>
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_luxury_tab_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='9' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+               </div>
+
+               <div class="i_c_special_tab">
+
+                  <div class="i_c_special_top i_c_luxury_special_top">精彩专题</div>
+
+                  <div class="i_c_special_con i_c_luxury_special_con">
+
+                     {dede:arclist typeid='9' flag='b' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fl">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                     {dede:arclist typeid='9' flag='b' limit='1,2' row='1' titlelen='60'}
+
+                     <div class="i_c_pic_pack fr">
+
+                        <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="106" height="86" /></a>
+
+                        <h2><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,18)"/]</a></h2>
+
+                     </div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='9' flag='h' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='9' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='9' row='10' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="i_c_recpic_tab">
+
+                  <div class="i_c_recpic_box">
+
+                     {dede:arclist typeid='36,38,39,40' flag='c' row='8' titlelen='50'}
+
+                     <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+                  <div class="clear"></div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_luxury_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='9' flag='s' row='1' titlelen='50'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_luxury_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_luxury_top"><span><a href="/luxury/shsz/" target="_blank">更多</a></span>奢华时装</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='36' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="layout mt5">
+
+            <div class="i_c_s_top i_c_s_luxury_top"><span><a href="/luxury/gydp/" target="_blank">更多</a></span>高雅单品</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='37' row='5' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="i_c_s_dotline"></div>
+
+         <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='37' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_home_tab_top"><a href="/home/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/home/yycw/" target="_blank">园艺厨卫</a> 
+
+               <a href="/home/jjsj/" target="_blank">家居设计</a> 
+
+               <a href="/home/ssjp/" target="_blank">时尚家品</a> 
+
+               <a href="/home/zxsc/" target="_blank">装修手册</a> 
+
+               <a href="/home/jjfs/" target="_blank">家居风水</a> 
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_home_tab_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='10' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+                  <div class="clear"></div>
+
+               </div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='10' flag='b' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='10' flag='b' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='10' row='6' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="i_c_recpic_tab">
+
+                  <div class="i_c_recpic_box">
+
+                     {dede:arclist typeid='42,43,44,45' flag='c' row='4' titlelen='50'}
+
+                     <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+                  <div class="clear"></div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_home_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='10' flag='s' row='1' titlelen='50'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_home_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='41' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+            </div>
+
+         </div>
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_home_top"><span><a href="/home/yycw/" target="_blank">更多</a></span>园艺厨卫</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='41' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_wedding_tab_top"><a href="/bride/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/bride/hslf/" target="_blank">婚纱礼服</a> 
+
+               <a href="/bride/hsdp/" target="_blank">婚尚单品</a> 
+
+               <a href="/bride/sdhd/" target="_blank">盛大婚典</a> 
+
+               <a href="/bride/mqmy/" target="_blank">迷情蜜月</a> 
+
+               <a href="/bride/xhkt/" target="_blank">新婚课堂</a> 
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_wedding_tab_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='11' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+                  <div class="clear"></div>
+
+               </div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='11' flag='h' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='11' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='11' row='6' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="i_c_recpic_tab">
+
+                  <div class="i_c_recpic_box">
+
+                     {dede:arclist typeid='46,47,48,49' flag='c' row='4' titlelen='50'}
+
+                     <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+                  <div class="clear"></div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_wedding_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='11' flag='s' row='1' titlelen='50'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_wedding_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='50' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+            </div>
+
+         </div>
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_wedding_top"><span><a href="/bride/xhkt/" target="_blank">更多</a></span>新婚课堂</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='50' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt10">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_tab_top i_c_health_tab_top"><a href="/health/" class="channel_link" target="_blank"></a>
+
+            <div class="i_c_colum">
+
+               <a href="/health/yysw/" target="_blank">营养食物</a> 
+
+               <a href="/health/jkyd/" target="_blank">健康有道</a> 
+
+               <a href="/health/xljk/" target="_blank">心理健康</a> 
+
+               <a href="/health/cjjb/" target="_blank">常见疾病</a> 
+
+               <a href="/health/yjkq/" target="_blank">亚健康区</a> 
+
+            </div>
+
+         </div>
+
+         <div class="i_c_tab_con i_c_health_tab_con">
+
+            <div class="i_c_side">
+
+               <div class="i_c_focus_pic">
+
+                  {dede:arclist typeid='12' flag='a' row='1' titlelen='30'}
+
+                  <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="236" height="271" /><span>[field:title/]</span></a></div>
+
+                  {/dede:arclist}
+
+                  <div class="clear"></div>
+
+               </div>
+
+            </div>
+
+            <div class="i_c_container">
+
+               <div class="i_c_topnews">
+
+                  {dede:arclist typeid='12' flag='h' row='1' titlelen='50'}
+
+                  <h3><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h3>
+
+                  {/dede:arclist}
+
+                  {dede:arclist typeid='12' flag='h' limit='1,3' row='2' titlelen='36'}
+
+                  <a href="[field:arcurl/]" target="_blank">[[field:title/]]</a>　
+
+                  {/dede:arclist}
+
+               </div>
+
+               <ul>
+
+                  {dede:arclist typeid='12' row='6' titlelen='28'}
+
+                  <li><span><a href="[field:typeurl /]" target="_blank">[[field:typename function='cn_substr(@me,4)'/]]</a></span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+               <div class="i_c_recpic_tab">
+
+                  <div class="i_c_recpic_box">
+
+                     {dede:arclist typeid='51,53,54,55' flag='c' row='4' titlelen='50'}
+
+                     <div class="innerbox"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="116" height="86" /><span>[field:title function="cn_substr(@me,18)"/]</span></a></div>
+
+                     {/dede:arclist}
+
+                  </div>
+
+                  <div class="clear"></div>
+
+               </div>
+
+               <div class="i_c_trend_tab">
+
+                  <div class="i_c_trend_title i_c_health_trend_title">小编推荐</div>
+
+                  <div class="i_c_trend_con">{dede:arclist typeid='12' flag='s' row='1' titlelen='50'}<a href="[field:arcurl/]" target="_blank">[field:title/]</a>{/dede:arclist}</div>
+
+               </div>
+
+               <div class="clear"></div>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_health_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='52' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+            </div>
+
+         </div>
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_health_top"><span><a href="/health/jkyd/" target="_blank">更多</a></span>健康有道</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='52' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>    
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt5">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_sam_tab">
+
+            <div class="i_c_sam_top i_c_man_sam_top"><a href="/man/" class="i_c_sam_clink" target="_blank"></a>
+
+               <div class="i_c_sam_more"><a href="/man/" target="_blank">更多</a></div>
+
+            </div>
+
+            <div class="i_c_sam_con">
+
+               {dede:arclist typeid='13' flag='c' row='1' titlelen='50'}
+
+               <div class="i_c_sam_rec_pack">
+
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="118" height="88" /></a>
+
+                  <div class="i_c_sam_rec_pack_con"><h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,42)'/]...
+
+                  </div>
+
+               </div>
+
+               {/dede:arclist}
+
+               <ul>
+
+                  {dede:arclist typeid='13' row='8' titlelen='30'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+         </div>
+
+         <div class="i_c_sam_tab ml10">
+
+            <div class="i_c_sam_top i_c_sex_sam_top"><a href="/sex/" class="i_c_sam_clink" target="_blank"></a>
+
+               <div class="i_c_sam_more"><a href="/sex/" target="_blank">更多</a></div>
+
+            </div>
+
+            <div class="i_c_sam_con">
+
+               {dede:arclist typeid='14' flag='c' row='1' titlelen='50'}
+
+               <div class="i_c_sam_rec_pack">
+
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="118" height="88" /></a>
+
+                  <div class="i_c_sam_rec_pack_con"><h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,42)'/]...
+
+                  </div>
+
+               </div>
+
+               {/dede:arclist}
+
+               <ul>
+
+                  {dede:arclist typeid='14' row='8' titlelen='30'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+         </div>
+
+         <div class="i_c_sam_tab ml10">
+
+            <div class="i_c_sam_top i_c_love_sam_top"><a href="/emotion/" class="i_c_sam_clink" target="_blank"></a>
+
+               <div class="i_c_sam_more"><a href="/emotion/" target="_blank">更多</a></div>
+
+            </div>
+
+            <div class="i_c_sam_con">
+
+               {dede:arclist typeid='15' flag='c' row='1' titlelen='50'}
+
+               <div class="i_c_sam_rec_pack">
+
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="118" height="88" /></a>
+
+                  <div class="i_c_sam_rec_pack_con"><h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,42)'/]...
+
+                  </div>
+
+               </div>
+
+               {/dede:arclist}
+
+               <ul>
+
+                  {dede:arclist typeid='15' row='8' titlelen='30'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_clothes_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='17' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+            </div>
+
+         </div>
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_health_top"><span><a href="/career/" target="_blank">更多</a></span>职场OL</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='17' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="layout mt5">
+
+      <div class="i_c_tab">
+
+         <div class="i_c_sam_tab">
+
+            <div class="i_c_sam_top i_c_life_sam_top"><a href="/life/" class="i_c_sam_clink" target="_blank"></a>
+
+               <div class="i_c_sam_more"><a href="/life/" target="_blank">更多</a></div>
+
+            </div>
+
+            <div class="i_c_sam_con">
+
+               {dede:arclist typeid='16' flag='c' row='1' titlelen='50'}
+
+               <div class="i_c_sam_rec_pack">
+
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="118" height="88" /></a>
+
+                  <div class="i_c_sam_rec_pack_con"><h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,42)'/]...
+
+                  </div>
+
+               </div>
+
+               {/dede:arclist}
+
+               <ul>
+
+                  {dede:arclist typeid='16' row='8' titlelen='30'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+         </div>
+
+         <div class="i_c_sam_tab ml10">
+
+            <div class="i_c_sam_top i_c_baby_sam_top"><a href="/baby/" class="i_c_sam_clink" target="_blank"></a>
+
+               <div class="i_c_sam_more"><a href="/baby/" target="_blank">更多</a></div>
+
+            </div>
+
+            <div class="i_c_sam_con">
+
+               {dede:arclist typeid='18' flag='c' row='1' titlelen='50'}
+
+               <div class="i_c_sam_rec_pack">
+
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="118" height="88" /></a>
+
+                  <div class="i_c_sam_rec_pack_con"><h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,42)'/]...
+
+                  </div>
+
+               </div>
+
+               {/dede:arclist}
+
+               <ul>
+
+                  {dede:arclist typeid='18' row='8' titlelen='30'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+         </div>
+
+         <div class="i_c_sam_tab ml10">
+
+            <div class="i_c_sam_top i_c_ent_sam_top"><a href="/ent/" class="i_c_sam_clink" target="_blank"></a>
+
+               <div class="i_c_sam_more"><a href="/ent/" target="_blank">更多</a></div>
+
+            </div>
+
+            <div class="i_c_sam_con">
+
+               {dede:arclist typeid='19' flag='c' row='1' titlelen='50'}
+
+               <div class="i_c_sam_rec_pack">
+
+                  <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="118" height="88" /></a>
+
+                  <div class="i_c_sam_rec_pack_con"><h5><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,16)"/]</a></h5>[field:description function='cn_substr(@me,42)'/]...
+
+                  </div>
+
+               </div>
+
+               {/dede:arclist}
+
+               <ul>
+
+                  {dede:arclist typeid='19' row='8' titlelen='30'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="i_c_s_tab i_c_s_clothes_tab">
+
+         <div class="layout">
+
+            <div class="i_c_s_img_pack">
+
+            {dede:arclist typeid='20' flag='c' row='1' titlelen='50'}
+
+            <a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" width="156" height="116" /></a>
+
+            <h4><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title function="cn_substr(@me,26)"/]</a></h4>
+
+            {/dede:arclist}
+
+            </div>
+
+         </div>
+
+         <div class="layout">
+
+            <div class="i_c_s_top i_c_s_health_top"><span><a href="/astro/" target="_blank">更多</a></span>星座物语</div>
+
+            <div class="i_c_s_con">
+
+               <ul>
+
+                  {dede:arclist typeid='20' row='6' titlelen='25'}
+
+                  <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+
+                  {/dede:arclist}
+
+               </ul>
+
+            </div>
+
+         </div>
+
+         <div class="clear"></div>
+
+      </div>
+
+      <div class="clear"></div>
+
+   </div>
+
+   <div class="clear"></div>
+
+</div>
+
+<div class="friendlink">
+
+   <div class="friendlink_in">
+
+      <div class="friendlink_top">
+
+         <span><a href="plus/flink_add.php" target="_blank">申请加入</a> | <a href="plus/flink.php" target="_blank">所有链接</a></span>友情链接
+
+      </div>
+
+      <div class="friendlink_con">{dede:flink row='60'/}</div>
+
+   </div>
+
+</div>
+
+{dede:include filename="/nvxing/footer.htm"/}
+
+</body>
+
+</html>
+
+ 

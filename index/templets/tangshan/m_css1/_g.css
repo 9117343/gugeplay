@@ -1,0 +1,97 @@
+@charset "gb2312";
+/* base */
+ody { margin:0; font-size:12px; font-family:"ËÎÌå","Î¢ÈíÑÅºÚ",Arial,sans-serif,serif; color:#333;}
+div,ul,li { font-size:12px; color:#5A5A5A; line-height:150%;}
+a { color:#5A5A5A; text-decoration:none;}
+a:hover { color:#000; text-decoration:underline;}
+ul,li { list-style:none;}
+img { border:none;}
+* { margin:0; padding:0;}
+.clear { height:0; overflow:hidden; clear:both;}
+
+/* often */
+.mt5{ margin-top:5px;}
+.mt10 { margin-top:10px;}
+.ml10 { margin-left:10px;}
+.pad5 { padding:5px;}
+.plr10 { padding:0 10px;}
+
+.fl { float:left;}
+.fr { float:right;}
+
+.dotline { background:url(../m_imgs/dot_line.gif) bottom repeat-x;}
+.layout { overflow:hidden; clear:both;}
+.imgbox { padding:1px; border:1px solid #CCC;}
+
+.tl2 { border-top:2px solid #D3D3D3;}
+
+/* tong_gg_tab */
+.tong_top_ad { width:958px; height:95px; margin:0 auto; padding:6px 1px 0px 1px; clear:both;}
+.tong_top_ad .two_ad { float:left; height:90px; width:380px; margin-right:10px;}
+.tong_top_ad .two_ad span { width:380; height:70px; margin-bottom:5px; }
+.tong_top_ad .two_ad span img { border:none;}
+.tong_top_ad .two_ad ul { background-color:#F5F5F5;}
+.tong_top_ad .two_ad ul li { float:left; width:190px; line-height:25px; background:#F5F5F5 url(../m_imgs/dot.jpg) no-repeat 8px; text-indent:25px;}
+.tong_top_ad .test_ad { float:left; width:167px; height:86px; padding:6px 2px 5px 8px;; border:1px dashed #E8A6A6;}
+.tong_top_ad .test_ad li { width:160px; line-height:21px;}
+.tong_gg_tab { margin:5px 0 0 0; padding:1px; width:956px; height:86px; border:1px solid #CCC; clear:both;}
+
+/* innerBox */
+.innerbox { padding:1px; border:1px solid #CCC; position:relative;}
+.innerbox a img {}
+.innerbox a span { display:none;}
+.innerbox a:hover img {}
+.innerbox a:hover span { margin:0; display:block; text-align:center; color:#fff; cursor:pointer; position:absolute; bottom:1px; left:1px; filter:alpha(opacity=70); opacity:0.7; text-decoration:none;}
+
+/* page */
+.page { padding:10px 0; font-family:Arial, Helvetica, sans-serif; background:#FFF; text-align:right; height:35px; line-height:35px; clear:both;}
+.page a { margin:0 2px; padding:2px 5px; border:2px solid #F0F0F0; text-decoration:none;}
+.page a:hover { border:2px solid #FF5A00; color:#FF5A00;}
+.page span .current { padding:2px 5px; border:2px solid #FF5A00; font-weight:blod; background:#FF6C16;}
+.page span .disabled { display:none;}
+
+/* header */
+#header { margin:0 auto; height:170px; background:url(../m_imgs/header_nav_bg.jpg) top left repeat-x; clear:both;}
+.top_nav_tab { margin:0 auto; width:960px; height:30px; clear:both;}
+.top_nav_tab .top_introduction { padding:0 0 0 20px; width:180px; line-height:30px; color:#333; background:url(../m_imgs/header_nav_icon.gif) no-repeat 5px 8px; text-align:left; float:left;}
+.top_nav_tab .top_navigation { float:right; line-height:30px;}
+.top_nav_tab .top_navigation ul {}
+.top_nav_tab .top_navigation ul li { margin:0 0 0 5px; padding:0 3px 0 10px; display:inline; width:60px; line-height:30px; text-align:left; background:url(../m_imgs/header_nav_icon_2.gif) no-repeat 0 4px;}
+
+.header_top { margin:0 auto; width:960px; height:70px; clear:both;}
+.header_logo { width:180px; height:70px; background:url(../top-logo.gif) no-repeat 10px 5px; float:left;}
+.header_logo .logolink { display:block; width:180px; height:70px;}
+.header_banner { margin:5px 0 0 0; padding:1px; border:1px solid #CCCECB; width:776px; height:56px; float:right;}
+
+.menu_tab { margin:0 auto; width:960px; height:35px; background:url(../m_imgs/menu_bg.jpg) left top repeat-x; clear:both;}
+.menu_tab .menu_tab_l { width:5px; height:35px; background:url(../m_imgs/menu_l.jpg) left top no-repeat; float:left;}
+.menu_tab .menu_tab_r { width:5px; height:35px; background:url(../m_imgs/menu_r.jpg) right top no-repeat; float:right;}
+.menu_tab .menu_tab_c { width:950px; height:35px; float:left;}
+.menu_tab .menu_tab_c ul {}
+.menu_tab .menu_tab_c ul li { display:block; width:79px; height:35px; line-height:35px; text-align:center; font-size:13px; font-weight:700; float:left;}
+.menu_tab .menu_tab_c ul li a { color:#FFF;}
+.menu_tab .menu_tab_c ul li a:hover { color:#FF0;}
+.menu_line { background:url(../m_imgs/menu_line.gif) no-repeat 0 12px;}
+	
+.menu_nav_tab { margin:0 auto; width:960px; height:35px; background:url(../m_imgs/menu_nav_bg.jpg) bottom repeat-x; clear:both;}
+.menu_nav_tab .menu_nav_l { width:5px; height:35px; background:url(../m_imgs/menu_nav_l.jpg) bottom no-repeat; float:left;}
+.menu_nav_tab .menu_nav_r { width:5px; height:35px; background:url(../m_imgs/menu_nav_r.jpg) bottom no-repeat; float:right;}
+.menu_nav_tab .menu_nav_c { padding:0 5px 0 0; width:945px; height:35px; line-height:35px; text-align:right; float:left;}
+.menu_nav_tab .menu_nav_c a,a:hover { color:#666;}
+.menu_nav_tab .menu_nav_c .search_tab { width:280px; height:35px; line-height:35px; text-align:left; float:left;}
+.menu_nav_tab .menu_nav_c .search_tab .search_title { width:50px; line-height:35px; color:#555; text-align:center; float:left;}
+.menu_nav_tab .menu_nav_c .search_tab .search_con { padding:5px 0 0 0; width:160px; line-height:30px; float:left;}
+.menu_nav_tab .menu_nav_c .search_tab .search_con .search_input { border:1px solid #CDCDCD; width:150px; height:20px; line-height:20px;}
+.menu_nav_tab .menu_nav_c .search_tab .search_button { padding:5px 0 0 0; *padding:6px 0 0 0; _padding:6px 0 0 0; width:60px; line-height:30px; float:left;}
+
+/* friend link */
+.friendlink { margin:5px auto 0 auto; padding:3px; width:960px; background:#F6F7F6; height:94px; clear:both;}
+.friendlink .friendlink_in { padding:0 10px; border:1px solid #CCC; background:#FFF; clear:both;}
+.friendlink .friendlink_in .friendlink_top { padding:0 0 0 10px; background:url(../m_imgs/tab_top_icon_1.gif) no-repeat 0 5px; line-height:30px; height:30px; text-align:left; font-weight:700; border-bottom:1px solid #CCC; clear:both;}
+.friendlink .friendlink_in .friendlink_top span { display:block; font-weight:normal; line-height:30px; text-align:right; float:right;}
+.friendlink .friendlink_in .friendlink_con { padding:5px 0; height:52px; text-align:left; word-break:keep-all; overflow:hidden; clear:both;}
+.friendlink_con li { float:left; margin-left:10px;}
+
+/* footer */
+#footer { font-family:Arial; margin:10px auto 0 auto; width:960px; height:75px; text-align:center; clear:both;}
+.footer_link { line-height:30px; text-align:center;}

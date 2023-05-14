@@ -1,0 +1,1884 @@
+@import url(global.css );
+.main980 {
+	MARGIN: 0px auto; WIDTH: 980px
+}
+.main980 LI {
+	VERTICAL-ALIGN: bottom
+}
+.ivydiv {
+	BORDER-TOP: #fff 5px solid; BACKGROUND: #fff; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 1000px; BORDER-BOTTOM: #fff 5px solid; TEXT-ALIGN: center
+}
+.left630:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.list .left630 UL:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.border:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.pad:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.picartlist .left630 LI:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.art .news:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.artarea:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.left630 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 15px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #ccc 1px solid; WIDTH: 620px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 100%
+}
+.right340 {
+	FLOAT: right; WIDTH: 340px; PADDING-TOP: 2px
+}
+.hack10 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 13px
+}
+.hack8 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 8px
+}
+.weizhi {
+	BACKGROUND: url(arrow.gif) no-repeat 8px center; TEXT-INDENT: 18px; LINE-HEIGHT: 30px; BORDER-BOTTOM: #ccc 1px dashed; HEIGHT: 30px
+}
+.list .left630 UL {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 30px; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; HEIGHT: 100%
+}
+.list .left630 LI {
+	OVERFLOW: hidden; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.list .left630 .borli {
+	FONT-SIZE: 0px; MARGIN: 9px 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; BORDER-BOTTOM: #ccc 1px dashed; HEIGHT: 1px
+}
+.list .left630 LI I {
+	FLOAT: left
+}
+.titles {
+	OVERFLOW: hidden; WIDTH: 68%
+}
+.titles A {
+	FONT-SIZE: 14px
+}
+.list .left630 LI .times {
+	FLOAT: right; COLOR: #999
+}
+.channel {
+	PADDING-RIGHT: 15px
+}
+.bigtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; OVERFLOW: hidden; TEXT-INDENT: 15px; LINE-HEIGHT: 40px; HEIGHT: 40px
+}
+.piclist .left630 UL {
+	PADDING-LEFT: 15px; OVERFLOW: hidden
+}
+.piclist .left630 LI {
+	FLOAT: left; PADDING-BOTTOM: 45px; OVERFLOW: hidden; WIDTH: 49.9%; HEIGHT: 180px
+}
+.piclist .left630 .nopadli {
+	PADDING-BOTTOM: 20px
+}
+.iimg {
+	PADDING-RIGHT: 10px; FLOAT: left; OVERFLOW: hidden; WIDTH: 135px
+}
+.itext {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 48%
+}
+.ititle {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #333; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.ititle A {
+	FONT-WEIGHT: bold
+}
+.idisc {
+	DISPLAY: block; COLOR: #666; TEXT-INDENT: 20px; LINE-HEIGHT: 25px
+}
+.imore {
+	DISPLAY: block; LINE-HEIGHT: 25px; HEIGHT: 25px; TEXT-ALIGN: right
+}
+.picartlist .left630 UL {
+	MARGIN: 0px auto; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+.picartlist .left630 LI {
+	PADDING-BOTTOM: 45px; HEIGHT: 100%
+}
+.artarea {
+	CLEAR: both; DISPLAY: block; MARGIN: 0px auto; WIDTH: 96%
+}
+.arttit {
+	CLEAR: both; PADDING-RIGHT: 8px; BACKGROUND-POSITION: -611px -23px; DISPLAY: block; COLOR: #666; TEXT-INDENT: 15px; LINE-HEIGHT: 24px; HEIGHT: 24px; BACKGROUND-COLOR: #eee; TEXT-ALIGN: right
+}
+.arttit A {
+	COLOR: #666
+}
+.arttit .tita {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left
+}
+.tags {
+	CLEAR: both; DISPLAY: block; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.tags A:hover {
+	TEXT-DECORATION: underline
+}
+.arttext {
+	TEXT-INDENT: 20px; LINE-HEIGHT: 24px
+}
+#artimg IMG {
+	CLEAR: left
+}
+#artimg A {
+	FLOAT: left
+}
+#artimg SPAN A {
+	DISPLAY: inline; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: none; COLOR: #f00
+}
+.bill {
+	CLEAR: both; FONT-SIZE: 0px; LINE-HEIGHT: 0
+}
+.bill IMG {
+	PADDING-TOP: 5px
+}
+.art .artit H1 {
+	MARGIN-TOP: 5px; FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND: #eee; LINE-HEIGHT: 40px; HEIGHT: 40px; TEXT-ALIGN: center
+}
+.art .artarea {
+	PADDING-BOTTOM: 35px; MARGIN: 0px auto; WIDTH: 96%; HEIGHT: 100%
+}
+#laiyuan {
+	LINE-HEIGHT: 30px; HEIGHT: 30px; TEXT-ALIGN: center
+}
+#laiyuan A {
+	COLOR: #f00
+}
+.art .tags {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; LINE-HEIGHT: 35px; HEIGHT: 45px
+}
+.art .tags A {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px
+}
+.art .tags A:hover {
+	TEXT-DECORATION: underline
+}
+.art .words {
+	FONT-SIZE: 14px; LINE-HEIGHT: 24px
+}
+.art .words P {
+	MARGIN-TOP: 8px
+}
+.art .intro{
+	color:#069;
+	line-height:20px;
+	margin-left:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.art A.cmsLink:link {
+	COLOR: #333333; LINE-HEIGHT: 18px; BORDER-BOTTOM: #666666 1px dashed; TEXT-DECORATION: none
+}
+.art A.cmsLink:visited {
+	COLOR: #333333; LINE-HEIGHT: 18px; BORDER-BOTTOM: #666666 1px dashed; TEXT-DECORATION: none
+}
+.art A.cmsLink:active {
+	COLOR: #333333; LINE-HEIGHT: 18px; BORDER-BOTTOM: #666666 1px dashed; TEXT-DECORATION: none
+}
+.art A.cmsLink:hover {
+	COLOR: #d50000; LINE-HEIGHT: 18px; BORDER-BOTTOM: #d50000 1px dashed; TEXT-DECORATION: none
+}
+.art .news {
+	PADDING-RIGHT: 8px; MARGIN-TOP: 5px; PADDING-LEFT: 8px; BACKGROUND: #f4f4f4; PADDING-BOTTOM: 20px; PADDING-TOP: 5px; HEIGHT: 100%
+}
+.newstitbg {
+	FONT-SIZE: 14px; BORDER-BOTTOM: #d8d8d8 1px solid; POSITION: relative; HEIGHT: 26px
+}
+.newstit {
+	BACKGROUND-POSITION: -605px 12px; PADDING-LEFT: 18px; FONT-SIZE: 14px; LEFT: 0px; LINE-HEIGHT: 25px; PADDING-TOP: 4px; POSITION: absolute; TOP: 0px; HEIGHT: 25px
+}
+.newstit SPAN {
+	FONT-WEIGHT: bold
+}
+.newstit SPAN A {
+	FONT-WEIGHT: bold
+}
+.newstit LI {
+	PADDING-RIGHT: 6px; DISPLAY: inline; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.newstit LI I {
+	FLOAT: left; MARGIN: 0px 6px; CURSOR: pointer
+}
+.newstit .newli {
+	BACKGROUND-POSITION: -497px 0px; FONT-WEIGHT: bold; WIDTH: 62px; HEIGHT: 27px; TEXT-ALIGN: center
+}
+.newsul {
+	PADDING-LEFT: 30px; PADDING-TOP: 5px
+}
+.newsul LI {
+	BACKGROUND-POSITION: -616px -19px; FONT-SIZE: 14px; OVERFLOW: hidden; TEXT-INDENT: 8px; LINE-HEIGHT: 32px; HEIGHT: 32px
+}
+#bbs_topics .title {
+	BACKGROUND-POSITION: -616px -19px; FONT-SIZE: 14px; OVERFLOW: hidden; TEXT-INDENT: 8px; LINE-HEIGHT: 32px; HEIGHT: 32px
+}
+.newsul .k_details .i_channel {
+	DISPLAY: none
+}
+.newsul .k_details .i_column {
+	DISPLAY: none
+}
+.toupiao {
+	WIDTH: 100%
+}
+.toupiao TD {
+	VERTICAL-ALIGN: bottom; LINE-HEIGHT: 25px
+}
+.toupiao TD IMG {
+	BORDER-RIGHT: #fff 8px solid; BORDER-TOP: #fff 8px solid; FLOAT: left; BORDER-LEFT: #fff 8px solid; BORDER-BOTTOM: #fff 8px solid
+}
+.ding {
+	BACKGROUND-POSITION: -93px -60px; FONT-WEIGHT: bold; WIDTH: 61px; PADDING-TOP: 40px; HEIGHT: 29px; TEXT-ALIGN: center
+}
+.cai {
+	BACKGROUND-POSITION: 0px -60px; FONT-WEIGHT: bold; WIDTH: 61px; PADDING-TOP: 40px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+.art .links {
+	LINE-HEIGHT: 30px; TEXT-ALIGN: center
+}
+.art .links A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.nextart {
+	FONT-SIZE: 14px; LINE-HEIGHT: 20px; BORDER-BOTTOM: #ccc 1px dashed; HEIGHT: 20px; 
+}
+.nextart .left{float:left;
+}
+.nextart .right{float:right;
+}
+.tjdiv {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 98%
+}
+.tjpicul LI {
+	FLOAT: left; WIDTH: 24.9%; LINE-HEIGHT: 25px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.tjpicul LI A {
+	CLEAR: both; DISPLAY: block
+}
+.tjul {
+	PADDING-TOP: 5px
+}
+.tjul LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 33.3%; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.comment_table {
+	CLEAR: both
+}
+.comment_table TABLE {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 580px; TEXT-ALIGN: left
+}
+.comment_table FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.comment_table TABLE TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.comment_table TABLE TD TEXTAREA {
+	WIDTH: 95%; HEIGHT: 5em
+}
+.comment_table TABLE INPUT {
+	VERTICAL-ALIGN: middle
+}
+.pinglun {
+	PADDING-TOP: 5px
+}
+.ggtable {
+	WIDTH: 100%
+}
+.ggtable IMG {
+	DISPLAY: inline
+}
+.ggtd {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.ggtd DIV {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.gglink {
+	LINE-HEIGHT: 33px; HEIGHT: 33px; TEXT-ALIGN: center
+}
+#bbs_topics THEAD {
+	DISPLAY: none
+}
+#bbs_topics .forum {
+	DISPLAY: none
+}
+#bbs_topics .author {
+	DISPLAY: none
+}
+#bbs_topics .award {
+	DISPLAY: none
+}
+#bbs_topics .awardLeft {
+	DISPLAY: none
+}
+#bbs_topics .replyCount {
+	DISPLAY: none
+}
+#bbs_topics .viewCount {
+	DISPLAY: none
+}
+#bbs_topics .createTime {
+	DISPLAY: none
+}
+#bbs_topics .lastUpdate {
+	DISPLAY: none
+}
+#pages {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; LINE-HEIGHT: 25px; PADDING-TOP: 20px; TEXT-ALIGN: center
+}
+#pages A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #b8b8b8; PADDING-BOTTOM: 4px; OVERFLOW: hidden; WIDTH: 7px; COLOR: #fff; PADDING-TOP: 4px; HEIGHT: 11px; TEXT-ALIGN: center
+}
+#pages A:hover {
+	FONT-WEIGHT: bold
+}
+#pages A.active {
+	FONT-WEIGHT: bold
+}
+.rbgt {
+	BACKGROUND-POSITION: 0px -495px; PADDING-TOP: 4px
+}
+.border {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 100%
+}
+.bg1 {
+	BACKGROUND: #f5f5f5
+}
+.bg2 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid
+}
+.pad {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; PADDING-TOP: 5px; HEIGHT: 98px
+}
+.rsearch {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 0px; PADDING-LEFT: 68px; PADDING-BOTTOM: 4px; PADDING-TOP: 1px; HEIGHT: 27px
+}
+.rsea {
+	HEIGHT: 54px
+}
+.rsea A {
+	PADDING-RIGHT: 6px; FLOAT: left; LINE-HEIGHT: 18px; WHITE-SPACE: nowrap
+}
+.rsea A:hover {
+	TEXT-DECORATION: underline
+}
+.inp {
+	BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: hidden; WIDTH: 192px; COLOR: #666; BORDER-TOP-STYLE: none; LINE-HEIGHT: 21px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 21px; BORDER-BOTTOM-STYLE: none
+}
+.rtit {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(sidebar.gif); BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 30px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px; BACKGROUND-COLOR: #f5f5f5
+}
+.rtit STRONG {
+	PADDING-RIGHT: 6px; FONT-SIZE: 16px; CURSOR: pointer
+}
+.rtit .mark {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #999
+}
+.rtit .mark A {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #999
+}
+.rtit .subMark {
+	PADDING-RIGHT: 8px; TEXT-ALIGN: right
+}
+.rtit .subMark A {
+	COLOR: #666
+}
+#video .rtit {
+	BACKGROUND-POSITION: 5px -245px
+}
+#bbs .rtit {
+	BACKGROUND-POSITION: 5px -345px
+}
+#service .rtit {
+	BACKGROUND-POSITION: 5px -345px
+}
+#photo .rtit {
+	BACKGROUND-POSITION: 5px 5px
+}
+#website .rtit {
+	BACKGROUND-POSITION: 5px 5px
+}
+#theme .rtit {
+	BACKGROUND-POSITION: 5px -395px
+}
+.picnews LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 49.9%; PADDING-TOP: 13px; TEXT-ALIGN: center
+}
+.imgdiv {
+	DISPLAY: block; MARGIN: 0px auto; OVERFLOW: hidden
+}
+.imgdiv A {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%; TEXT-ALIGN: center
+}
+.imglink {
+	OVERFLOW: hidden; HEIGHT: 23px
+}
+#video .imgdiv {
+	WIDTH: 135px
+}
+.bbsimg {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 35%; PADDING-TOP: 6px
+}
+.bbsul {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 65%
+}
+#service .imgdiv {
+	WIDTH: 160px; PADDING-TOP: 6px
+}
+.black {
+	COLOR: #000
+}
+.black A:link {
+	COLOR: #000
+}
+.black A:visited {
+	COLOR: #000
+}
+.black A:active {
+	COLOR: #000
+}
+.black A:hover {
+	COLOR: #b50066
+}
+.serviceull {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.serviceulr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.serviceull {
+	FONT-WEIGHT: bold; FLOAT: left; OVERFLOW: hidden; WIDTH: 160px
+}
+.serviceulr {
+	FONT-WEIGHT: bold; FLOAT: right; OVERFLOW: hidden; WIDTH: 160px
+}
+.serviceull LI {
+	LINE-HEIGHT: 28px
+}
+.serviceulr LI {
+	LINE-HEIGHT: 28px
+}
+.lPic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px
+}
+.right340 .serviceul LI {
+	VERTICAL-ALIGN: middle; OVERFLOW: hidden; LINE-HEIGHT: 27px; HEIGHT: 27px
+}
+.serviceimg {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 53%; HEIGHT: 220px
+}
+.right340 .serviceimg LI {
+	VERTICAL-ALIGN: middle; LINE-HEIGHT: 18px
+}
+#photo .imgdiv {
+	WIDTH: 118px
+}
+#theme .imgdiv {
+	WIDTH: 135px
+}
+#video .imgdiv IMG {
+	BACKGROUND-POSITION: -337px 100px; PADDING-BOTTOM: 15px
+}
+#video .rul LI A {
+	PADDING-RIGHT: 22px; BACKGROUND: url(movices.gif) no-repeat right 2px
+}
+.right340 LI {
+	LINE-HEIGHT: 25px
+}
+.rul {
+	CLEAR: both; BORDER-TOP: #ccc 1px dashed; PADDING-TOP: 5px; ZOOM: 1
+}
+.rul LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 49%; HEIGHT: 25px
+}
+.art .rul {
+	BORDER-TOP-STYLE: none
+}
+.pagination {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; HEIGHT: 26px
+}
+.pagination UL {
+	LEFT: 1px; POSITION: absolute; TOP: 3px; HEIGHT: 28px
+}
+.pagination LI {
+	PADDING-RIGHT: 4px; FLOAT: left; LINE-HEIGHT: 28px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+.pagination A {
+	PADDING-RIGHT: 11px; DISPLAY: block; CURSOR: pointer
+}
+.pagination SPAN {
+	DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(webut.gif) no-repeat 0px -28px
+}
+.pagination A:hover {
+	PADDING-RIGHT: 11px; DISPLAY: block; BACKGROUND: url(webut.gif) no-repeat right 0px; CURSOR: pointer
+}
+.pagination A.selected {
+	PADDING-RIGHT: 11px; DISPLAY: block; BACKGROUND: url(webut.gif) no-repeat right 0px; CURSOR: pointer
+}
+.pagination A.current {
+	PADDING-RIGHT: 11px; DISPLAY: block; BACKGROUND: url(webut.gif) no-repeat right 0px; CURSOR: pointer
+}
+.pagination A:hover SPAN {
+	DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(webut.gif) no-repeat; CURSOR: pointer
+}
+.pagination A.selected SPAN {
+	DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(webut.gif) no-repeat; CURSOR: pointer
+}
+.pagination A.current SPAN {
+	DISPLAY: block; PADDING-LEFT: 11px; BACKGROUND: url(webut.gif) no-repeat; CURSOR: pointer
+}
+.sliderwrapper {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 7px; BACKGROUND: url(webg.gif) no-repeat 2px 7px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #ccc 1px solid; WIDTH: 319px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 100px; TEXT-ALIGN: left
+}
+.sliderwrapper A {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 15px; OVERFLOW: hidden; WIDTH: 135px; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+.sliderwrapper BR {
+	DISPLAY: none
+}
+.sliderwrapper .contentdiv {
+	DISPLAY: none
+}
+.contentdiv UL {
+	
+}
+.contentdiv LI {
+	FLOAT: left; WIDTH: 150px; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+#sex #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#emotion #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#star #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#health #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#astrology #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#beauty #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#dress #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#zt #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#fitness #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#manchannel #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#companynews #subNav UL LI.lineIndex {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#beauty .main990 {
+	BACKGROUND: url(rbg.jpg) #fff no-repeat right 0px
+}
+#dress .main990 {
+	BACKGROUND: url(rbg.jpg) #fff no-repeat right 0px
+}
+#fitness .main990 {
+	BACKGROUND: url(rbg.jpg) #fff no-repeat right 0px
+}
+#zt .main990 {
+	BACKGROUND: url(rbg.jpg) #fff no-repeat right 0px
+}
+#companynews .main990 {
+	BACKGROUND: url(rbg.jpg) #fff no-repeat right 0px
+}
+#beauty #art .main990 {
+	BACKGROUND: url(rbg2.jpg) #fff no-repeat right 0px
+}
+#dress #art .main990 {
+	BACKGROUND: url(rbg2.jpg) #fff no-repeat right 0px
+}
+#fitness #art .main990 {
+	BACKGROUND: url(rbg2.jpg) #fff no-repeat right 0px
+}
+#zt #art .main990 {
+	BACKGROUND: url(rbg2.jpg) #fff no-repeat right 0px
+}
+#companynews #art .main990 {
+	BACKGROUND: url(rbg2.jpg) #fff no-repeat right 0px
+}
+#beauty .ggtd {
+	BORDER-RIGHT: #fee6c2 1px solid; BORDER-TOP: #fee6c2 1px solid; BORDER-LEFT: #fee6c2 1px solid; BORDER-BOTTOM: #fee6c2 1px solid
+}
+#dress .ggtd {
+	BORDER-RIGHT: #fee6c2 1px solid; BORDER-TOP: #fee6c2 1px solid; BORDER-LEFT: #fee6c2 1px solid; BORDER-BOTTOM: #fee6c2 1px solid
+}
+#fitness .ggtd {
+	BORDER-RIGHT: #fee6c2 1px solid; BORDER-TOP: #fee6c2 1px solid; BORDER-LEFT: #fee6c2 1px solid; BORDER-BOTTOM: #fee6c2 1px solid
+}
+#zt .ggtd {
+	BORDER-RIGHT: #fee6c2 1px solid; BORDER-TOP: #fee6c2 1px solid; BORDER-LEFT: #fee6c2 1px solid; BORDER-BOTTOM: #fee6c2 1px solid
+}
+#companynews .ggtd {
+	BORDER-RIGHT: #fee6c2 1px solid; BORDER-TOP: #fee6c2 1px solid; BORDER-LEFT: #fee6c2 1px solid; BORDER-BOTTOM: #fee6c2 1px solid
+}
+#beauty #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#dress #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#fitness #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#zt #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#companynews #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#beauty #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#dress #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#zt #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#fitness #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#companynews #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#beauty .pagination A:hover {
+	COLOR: #bd1992
+}
+#beauty .pagination A.selected {
+	COLOR: #bd1992
+}
+#beauty .pagination A.current {
+	COLOR: #bd1992
+}
+#dress .pagination A:hover {
+	COLOR: #bd1992
+}
+#dress .pagination A.selected {
+	COLOR: #bd1992
+}
+#dress .pagination A.current {
+	COLOR: #bd1992
+}
+#fitness .pagination A:hover {
+	COLOR: #bd1992
+}
+#fitness .pagination A.selected {
+	COLOR: #bd1992
+}
+#fitness .pagination A.current {
+	COLOR: #bd1992
+}
+#zt .pagination A:hover {
+	COLOR: #bd1992
+}
+#zt .pagination A.selected {
+	COLOR: #bd1992
+}
+#zt .pagination A.current {
+	COLOR: #bd1992
+}
+#companynews .pagination A:hover {
+	COLOR: #bd1992
+}
+#companynews .pagination A.selected {
+	COLOR: #bd1992
+}
+#companynews .pagination A.current {
+	COLOR: #bd1992
+}
+#sex .main1000 {
+	BORDER-RIGHT: #727e74 1px solid
+}
+#emotion .main1000 {
+	BORDER-RIGHT: #727e74 1px solid
+}
+#star .main1000 {
+	BORDER-RIGHT: #727e74 1px solid
+}
+#health .main1000 {
+	BORDER-RIGHT: #727e74 1px solid
+}
+#astrology .main1000 {
+	BORDER-RIGHT: #727e74 1px solid
+}
+#manchannel .main1000 {
+	BORDER-RIGHT: #727e74 1px solid
+}
+#sex .main990 {
+	BACKGROUND: url(rbg4.jpg) #fff no-repeat right 0px
+}
+#emotion .main990 {
+	BACKGROUND: url(rbg4.jpg) #fff no-repeat right 0px
+}
+#star .main990 {
+	BACKGROUND: url(rbg4.jpg) #fff no-repeat right 0px
+}
+#health .main990 {
+	BACKGROUND: url(rbg4.jpg) #fff no-repeat right 0px
+}
+#astrology .main990 {
+	BACKGROUND: url(rbg4.jpg) #fff no-repeat right 0px
+}
+#manchannel .main990 {
+	BACKGROUND: url(rbg4.jpg) #fff no-repeat right 0px
+}
+#sex #art .main990 {
+	BACKGROUND: url(rbg3.jpg) #fff no-repeat right 0px
+}
+#emotion #art .main990 {
+	BACKGROUND: url(rbg3.jpg) #fff no-repeat right 0px
+}
+#star #art .main990 {
+	BACKGROUND: url(rbg3.jpg) #fff no-repeat right 0px
+}
+#health #art .main990 {
+	BACKGROUND: url(rbg3.jpg) #fff no-repeat right 0px
+}
+#astrology #art .main990 {
+	BACKGROUND: url(rbg3.jpg) #fff no-repeat right 0px
+}
+#manchannel #art .main990 {
+	BACKGROUND: url(rbg3.jpg) #fff no-repeat right 0px
+}
+#sex .ggtd {
+	BORDER-RIGHT: #d7ead6 1px solid; BORDER-TOP: #d7ead6 1px solid; BORDER-LEFT: #d7ead6 1px solid; BORDER-BOTTOM: #d7ead6 1px solid
+}
+#emotion .ggtd {
+	BORDER-RIGHT: #d7ead6 1px solid; BORDER-TOP: #d7ead6 1px solid; BORDER-LEFT: #d7ead6 1px solid; BORDER-BOTTOM: #d7ead6 1px solid
+}
+#star .ggtd {
+	BORDER-RIGHT: #d7ead6 1px solid; BORDER-TOP: #d7ead6 1px solid; BORDER-LEFT: #d7ead6 1px solid; BORDER-BOTTOM: #d7ead6 1px solid
+}
+#health .ggtd {
+	BORDER-RIGHT: #d7ead6 1px solid; BORDER-TOP: #d7ead6 1px solid; BORDER-LEFT: #d7ead6 1px solid; BORDER-BOTTOM: #d7ead6 1px solid
+}
+#astrology .ggtd {
+	BORDER-RIGHT: #d7ead6 1px solid; BORDER-TOP: #d7ead6 1px solid; BORDER-LEFT: #d7ead6 1px solid; BORDER-BOTTOM: #d7ead6 1px solid
+}
+#manchannel .ggtd {
+	BORDER-RIGHT: #d7ead6 1px solid; BORDER-TOP: #d7ead6 1px solid; BORDER-LEFT: #d7ead6 1px solid; BORDER-BOTTOM: #d7ead6 1px solid
+}
+#sex #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#emotion #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#star #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#health #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#astrology #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#manchannel #subNav UL LI {
+	BACKGROUND-IMAGE: url(subnav.png)
+}
+#sex #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#emotion #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#star #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#health #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#astrology #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#manchannel #subNav UL.ul2 LI.lineOther {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#emotion .pagination A:hover {
+	COLOR: #4a5b49
+}
+#emotion .pagination A.selected {
+	COLOR: #4a5b49
+}
+#emotion .pagination A.current {
+	COLOR: #4a5b49
+}
+#star .pagination A:hover {
+	COLOR: #4a5b49
+}
+#star .pagination A.selected {
+	COLOR: #4a5b49
+}
+#star .pagination A.current {
+	COLOR: #4a5b49
+}
+#health .pagination A:hover {
+	COLOR: #4a5b49
+}
+#health .pagination A.selected {
+	COLOR: #4a5b49
+}
+#health .pagination A.current {
+	COLOR: #4a5b49
+}
+#astrology .pagination A:hover {
+	COLOR: #4a5b49
+}
+#astrology .pagination A.selected {
+	COLOR: #4a5b49
+}
+#astrology .pagination A.current {
+	COLOR: #4a5b49
+}
+#manchannel .pagination A:hover {
+	COLOR: #4a5b49
+}
+#manchannel .pagination A.selected {
+	COLOR: #4a5b49
+}
+#manchannel .pagination A.current {
+	COLOR: #4a5b49
+}
+BODY#beauty .bgBug {
+	BACKGROUND: #ffffff
+}
+BODY#fitness .bgBug {
+	BACKGROUND: #ffffff
+}
+BODY#dress .bgBug {
+	BACKGROUND: #ffffff
+}
+BODY#companynews .bgBug {
+	BACKGROUND: #ffffff
+}
+BODY#fitness #art .bgBug {
+	BACKGROUND: #ffffff
+}
+BODY#dress #art .bgBug {
+	BACKGROUND: #ffffff
+}
+BODY#fitness #subNav0308 {
+	BACKGROUND: url(fitness.png) #cb3d8f no-repeat left top
+}
+BODY#fitness #subNav0308 .ChannelNav UL.navOut {
+	BACKGROUND: url(fitness.png) no-repeat right top
+}
+BODY#fitness #sonNav0308 {
+	BACKGROUND: url(fitness.png) #f5f5f5 no-repeat left bottom
+}
+#beauty .rsearch {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .newstit {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .newstit .newli {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .ding {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .cai {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .gglink {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .rbgt {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .newsul LI {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .arttit {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty #bbs_topics .title {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#beauty .main1000 {
+	BACKGROUND: url(beauty.png) #900e58 no-repeat 0px 0px
+}
+#beauty .channel A {
+	COLOR: #a01c68
+}
+#beauty .channel {
+	COLOR: #a01c68
+}
+#beauty .list LI {
+	COLOR: #a01c68
+}
+#beauty .right340 LI {
+	COLOR: #a01c68
+}
+#beauty .rtit STRONG {
+	COLOR: #a01c68
+}
+#beauty .imore A {
+	COLOR: #a01c68
+}
+#beauty .arttit .tita {
+	COLOR: #a01c68
+}
+#beauty .newstit SPAN {
+	COLOR: #a01c68
+}
+#beauty .newstit SPAN A {
+	COLOR: #a01c68
+}
+#beauty .newstit .newli {
+	COLOR: #a01c68
+}
+#beauty .toupiao TD {
+	COLOR: #a01c68
+}
+#beauty .art .links A {
+	COLOR: #a01c68
+}
+#beauty .tjul LI {
+	COLOR: #a01c68
+}
+#beauty .art .artit H1 {
+	COLOR: #fe6000
+}
+#beauty #pages A:hover {
+	BACKGROUND: #c1558f
+}
+#beauty #pages #page_cur {
+	BACKGROUND: #c1558f
+}
+#beauty .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#dress .rsearch {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .newstit {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .newstit .newli {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .ding {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .cai {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .gglink {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .rbgt {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .newsul LI {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .arttit {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress #bbs_topics .title {
+	BACKGROUND-IMAGE: url(dress.gif); BACKGROUND-REPEAT: no-repeat
+}
+#dress .main1000 {
+	BACKGROUND: url(dress.png) #900e58 no-repeat 0px 0px
+}
+#dress .channel A {
+	COLOR: #a01c68
+}
+#dress .channel {
+	COLOR: #a01c68
+}
+#dress .list LI {
+	COLOR: #a01c68
+}
+#dress .right340 LI {
+	COLOR: #a01c68
+}
+#dress .rtit STRONG {
+	COLOR: #a01c68
+}
+#dress .imore A {
+	COLOR: #a01c68
+}
+#dress .arttit .tita {
+	COLOR: #a01c68
+}
+#dress .newstit SPAN {
+	COLOR: #a01c68
+}
+#dress .newstit SPAN A {
+	COLOR: #a01c68
+}
+#dress .newstit .newli {
+	COLOR: #a01c68
+}
+#dress .toupiao TD {
+	COLOR: #a01c68
+}
+#dress .art .links A {
+	COLOR: #a01c68
+}
+#dress .tjul LI {
+	COLOR: #a01c68
+}
+#dress .art .artit H1 {
+	COLOR: #fe6000
+}
+#dress #pages A:hover {
+	BACKGROUND: #c1558f
+}
+#dress #pages #page_cur {
+	BACKGROUND: #c1558f
+}
+#dress .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#fitness .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/fitness.gif); BACKGROUND-REPEAT: no-repeat
+}
+#fitness .main1000 {
+	BACKGROUND: url(nav.png) #900e58 no-repeat 0px 0px
+}
+#fitness .channel A {
+	COLOR: #a01c68
+}
+#fitness .channel {
+	COLOR: #a01c68
+}
+#fitness .list LI {
+	COLOR: #a01c68
+}
+#fitness .right340 LI {
+	COLOR: #a01c68
+}
+#fitness .rtit STRONG {
+	COLOR: #a01c68
+}
+#fitness .imore A {
+	COLOR: #a01c68
+}
+#fitness .arttit .tita {
+	COLOR: #a01c68
+}
+#fitness .newstit SPAN {
+	COLOR: #a01c68
+}
+#fitness .newstit SPAN A {
+	COLOR: #a01c68
+}
+#fitness .newstit .newli {
+	COLOR: #a01c68
+}
+#fitness .toupiao TD {
+	COLOR: #a01c68
+}
+#fitness .art .links A {
+	COLOR: #a01c68
+}
+#fitness .tjul LI {
+	COLOR: #a01c68
+}
+#fitness .art .artit H1 {
+	COLOR: #fe6000
+}
+#fitness #pages A:hover {
+	BACKGROUND: #c1558f
+}
+#fitness #pages #page_cur {
+	BACKGROUND: #c1558f
+}
+#fitness .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#emotion .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/emotion.gif); BACKGROUND-REPEAT: no-repeat
+}
+#emotion .main1000 {
+	BACKGROUND: url(nav.png) #445545 no-repeat 0px 0px
+}
+#emotion .channel A {
+	COLOR: #4a5b49
+}
+#emotion .channel {
+	COLOR: #4a5b49
+}
+#emotion .list LI {
+	COLOR: #4a5b49
+}
+#emotion .right340 LI {
+	COLOR: #4a5b49
+}
+#emotion .rtit STRONG {
+	COLOR: #4a5b49
+}
+#emotion .imore A {
+	COLOR: #4a5b49
+}
+#emotion .arttit .tita {
+	COLOR: #4a5b49
+}
+#emotion .newstit SPAN {
+	COLOR: #4a5b49
+}
+#emotion .newstit SPAN A {
+	COLOR: #4a5b49
+}
+#emotion .newstit .newli {
+	COLOR: #4a5b49
+}
+#emotion .toupiao TD {
+	COLOR: #4a5b49
+}
+#emotion .art .links A {
+	COLOR: #4a5b49
+}
+#emotion .tjul LI {
+	COLOR: #4a5b49
+}
+#emotion .art .artit H1 {
+	COLOR: #4a5b49
+}
+#emotion #pages A:hover {
+	BACKGROUND: #6b7b6e
+}
+#emotion #pages #page_cur {
+	BACKGROUND: #6b7b6e
+}
+#emotion .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#star .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/star.gif); BACKGROUND-REPEAT: no-repeat
+}
+#star .main1000 {
+	BACKGROUND: url(nav.png) #445545 no-repeat 0px 0px
+}
+#star .channel A {
+	COLOR: #4a5b49
+}
+#star .channel {
+	COLOR: #4a5b49
+}
+#star .list LI {
+	COLOR: #4a5b49
+}
+#star .right340 LI {
+	COLOR: #4a5b49
+}
+#star .rtit STRONG {
+	COLOR: #4a5b49
+}
+#star .imore A {
+	COLOR: #4a5b49
+}
+#star .arttit .tita {
+	COLOR: #4a5b49
+}
+#star .newstit SPAN {
+	COLOR: #4a5b49
+}
+#star .newstit SPAN A {
+	COLOR: #4a5b49
+}
+#star .newstit .newli {
+	COLOR: #4a5b49
+}
+#star .toupiao TD {
+	COLOR: #4a5b49
+}
+#star .art .links A {
+	COLOR: #4a5b49
+}
+#star .tjul LI {
+	COLOR: #4a5b49
+}
+#star .art .artit H1 {
+	COLOR: #4a5b49
+}
+#star #pages A:hover {
+	BACKGROUND: #6b7b6e
+}
+#star #pages #page_cur {
+	BACKGROUND: #6b7b6e
+}
+#star .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#health .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/health.gif); BACKGROUND-REPEAT: no-repeat
+}
+#health .main1000 {
+	BACKGROUND: url(nav.png) #445545 no-repeat 0px 0px
+}
+#health .channel A {
+	COLOR: #4a5b49
+}
+#health .channel {
+	COLOR: #4a5b49
+}
+#health .list LI {
+	COLOR: #4a5b49
+}
+#health .right340 LI {
+	COLOR: #4a5b49
+}
+#health .rtit STRONG {
+	COLOR: #4a5b49
+}
+#health .imore A {
+	COLOR: #4a5b49
+}
+#health .arttit .tita {
+	COLOR: #4a5b49
+}
+#health .newstit SPAN {
+	COLOR: #4a5b49
+}
+#health .newstit SPAN A {
+	COLOR: #4a5b49
+}
+#health .newstit .newli {
+	COLOR: #4a5b49
+}
+#health .toupiao TD {
+	COLOR: #4a5b49
+}
+#health .art .links A {
+	COLOR: #4a5b49
+}
+#health .tjul LI {
+	COLOR: #4a5b49
+}
+#health .art .artit H1 {
+	COLOR: #4a5b49
+}
+#health #pages A:hover {
+	BACKGROUND: #6b7b6e
+}
+#health #pages #page_cur {
+	BACKGROUND: #6b7b6e
+}
+#health .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#astrology .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/astrology.gif); BACKGROUND-REPEAT: no-repeat
+}
+#astrology .main1000 {
+	BACKGROUND: url(nav.png) #445545 no-repeat 0px 0px
+}
+#astrology .channel A {
+	COLOR: #4a5b49
+}
+#astrology .channel {
+	COLOR: #4a5b49
+}
+#astrology .list LI {
+	COLOR: #4a5b49
+}
+#astrology .right340 LI {
+	COLOR: #4a5b49
+}
+#astrology .rtit STRONG {
+	COLOR: #4a5b49
+}
+#astrology .imore A {
+	COLOR: #4a5b49
+}
+#astrology .arttit .tita {
+	COLOR: #4a5b49
+}
+#astrology .newstit SPAN {
+	COLOR: #4a5b49
+}
+#astrology .newstit SPAN A {
+	COLOR: #4a5b49
+}
+#astrology .newstit .newli {
+	COLOR: #4a5b49
+}
+#astrology .toupiao TD {
+	COLOR: #4a5b49
+}
+#astrology .art .links A {
+	COLOR: #4a5b49
+}
+#astrology .tjul LI {
+	COLOR: #4a5b49
+}
+#astrology .art .artit H1 {
+	COLOR: #4a5b49
+}
+#astrology #pages A:hover {
+	BACKGROUND: #6b7b6e
+}
+#astrology #pages #page_cur {
+	BACKGROUND: #6b7b6e
+}
+#astrology .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#zt .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/zt.gif); BACKGROUND-REPEAT: no-repeat
+}
+#zt .main1000 {
+	BACKGROUND: url(http://www1.pclady.com.cn/global/2009/images_d/beauty/zt.png) #900e58 no-repeat 0px 0px
+}
+#zt .channel A {
+	COLOR: #a01c68
+}
+#zt .channel {
+	COLOR: #a01c68
+}
+#zt .list LI {
+	COLOR: #a01c68
+}
+#zt .right340 LI {
+	COLOR: #a01c68
+}
+#zt .rtit STRONG {
+	COLOR: #a01c68
+}
+#zt .imore A {
+	COLOR: #a01c68
+}
+#zt .arttit .tita {
+	COLOR: #a01c68
+}
+#zt .newstit SPAN {
+	COLOR: #a01c68
+}
+#zt .newstit SPAN A {
+	COLOR: #a01c68
+}
+#zt .newstit .newli {
+	COLOR: #a01c68
+}
+#zt .toupiao TD {
+	COLOR: #a01c68
+}
+#zt .art .links A {
+	COLOR: #a01c68
+}
+#zt .tjul LI {
+	COLOR: #a01c68
+}
+#zt .art .artit H1 {
+	COLOR: #fe6000
+}
+#zt #pages A:hover {
+	BACKGROUND: #c1558f
+}
+#zt #pages #page_cur {
+	BACKGROUND: #c1558f
+}
+#zt .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#manchannel .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/manchannel.gif); BACKGROUND-REPEAT: no-repeat
+}
+#manchannel .main1000 {
+	BACKGROUND: url(http://www1.pclady.com.cn/global/2009/images_d/channel/mannav.png) #445545 no-repeat 0px 0px
+}
+#manchannel .channel A {
+	COLOR: #4a5b49
+}
+#manchannel .channel {
+	COLOR: #4a5b49
+}
+#manchannel .list LI {
+	COLOR: #4a5b49
+}
+#manchannel .right340 LI {
+	COLOR: #4a5b49
+}
+#manchannel .rtit STRONG {
+	COLOR: #4a5b49
+}
+#manchannel .imore A {
+	COLOR: #4a5b49
+}
+#manchannel .arttit .tita {
+	COLOR: #4a5b49
+}
+#manchannel .newstit SPAN {
+	COLOR: #4a5b49
+}
+#manchannel .newstit SPAN A {
+	COLOR: #4a5b49
+}
+#manchannel .newstit .newli {
+	COLOR: #4a5b49
+}
+#manchannel .toupiao TD {
+	COLOR: #4a5b49
+}
+#manchannel .art .links A {
+	COLOR: #4a5b49
+}
+#manchannel .tjul LI {
+	COLOR: #4a5b49
+}
+#manchannel .art .artit H1 {
+	COLOR: #4a5b49
+}
+#manchannel #pages A:hover {
+	BACKGROUND: #6b7b6e
+}
+#manchannel #pages #page_cur {
+	BACKGROUND: #6b7b6e
+}
+#manchannel .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#sex .rsearch {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .newstit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .newstit .newli {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .ding {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .cai {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .gglink {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .rbgt {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .newsul LI {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .arttit {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex #bbs_topics .title {
+	BACKGROUND-IMAGE: url(http://www1.pclady.com.cn/global/2009/images/images_d/list/sex.gif); BACKGROUND-REPEAT: no-repeat
+}
+#sex .main1000 {
+	BACKGROUND: url(nav.png) #445545 no-repeat 0px 0px
+}
+#sex .channel A {
+	COLOR: #4a5b49
+}
+#sex .channel {
+	COLOR: #4a5b49
+}
+#sex .list LI {
+	COLOR: #4a5b49
+}
+#sex .right340 LI {
+	COLOR: #4a5b49
+}
+#sex .rtit STRONG {
+	COLOR: #4a5b49
+}
+#sex .imore A {
+	COLOR: #4a5b49
+}
+#sex .arttit .tita {
+	COLOR: #4a5b49
+}
+#sex .newstit SPAN {
+	COLOR: #4a5b49
+}
+#sex .newstit SPAN A {
+	COLOR: #4a5b49
+}
+#sex .newstit .newli {
+	COLOR: #4a5b49
+}
+#sex .toupiao TD {
+	COLOR: #4a5b49
+}
+#sex .art .links A {
+	COLOR: #4a5b49
+}
+#sex .tjul LI {
+	COLOR: #4a5b49
+}
+#sex .art .artit H1 {
+	COLOR: #4a5b49
+}
+#sex #pages A:hover {
+	BACKGROUND: #6b7b6e
+}
+#sex #pages #page_cur {
+	BACKGROUND: #6b7b6e
+}
+#sex .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#companynews .rsearch {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .newstit {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .newstit .newli {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .ding {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .cai {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .gglink {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .rbgt {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews #video .imgdiv IMG {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .newsul LI {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .arttit {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews #bbs_topics .title {
+	BACKGROUND-IMAGE: url(list.gif); BACKGROUND-REPEAT: no-repeat
+}
+#companynews .main1000 {
+	BACKGROUND: url(http://www1.pclady.com.cn/global/2009/images_d/companynews/navbg.png) #900e58 no-repeat 0px 0px
+}
+#companynews .channel A {
+	COLOR: #a01c68
+}
+#companynews .channel {
+	COLOR: #a01c68
+}
+#companynews .list LI {
+	COLOR: #a01c68
+}
+#companynews .right340 LI {
+	COLOR: #a01c68
+}
+#companynews .rtit STRONG {
+	COLOR: #a01c68
+}
+#companynews .imore A {
+	COLOR: #a01c68
+}
+#companynews .arttit .tita {
+	COLOR: #a01c68
+}
+#companynews .newstit SPAN {
+	COLOR: #a01c68
+}
+#companynews .newstit SPAN A {
+	COLOR: #a01c68
+}
+#companynews .newstit .newli {
+	COLOR: #a01c68
+}
+#companynews .toupiao TD {
+	COLOR: #a01c68
+}
+#companynews .art .links A {
+	COLOR: #a01c68
+}
+#companynews .tjul LI {
+	COLOR: #a01c68
+}
+#companynews .art .artit H1 {
+	COLOR: #fe6000
+}
+#companynews #pages A:hover {
+	BACKGROUND: #c1558f
+}
+#companynews #pages #page_cur {
+	BACKGROUND: #c1558f
+}
+#companynews .gglink {
+	BACKGROUND-POSITION: 0px -175px
+}
+#companynews #subNav UL.ul1 LI.lineIndex {
+	WIDTH: 150px
+}
+#artgg A {
+	CLEAR: both; BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; DISPLAY: block; FONT-SIZE: 0px; MARGIN-BOTTOM: 8px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 0; BORDER-BOTTOM: #ccc 1px solid
+}
+#artgg IMG {
+	BORDER-RIGHT: #f5f5f5 3px solid; BORDER-TOP: #f5f5f5 5px solid; BORDER-LEFT: #f5f5f5 5px solid; BORDER-BOTTOM: #f5f5f5 5px solid
+}
+#artpad {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#artpad1 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#artpad2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#artpad3 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#artNav {
+	BORDER-RIGHT: #e0e0e0 1px solid; BORDER-TOP: #e0e0e0 1px solid; MARGIN-TOP: 12px; FONT-SIZE: 12px; BORDER-LEFT: #e0e0e0 1px solid; BORDER-BOTTOM: #e0e0e0 1px solid
+}
+#artNav .art_nav {
+	BACKGROUND: #ffffff; WIDTH: 100%
+}
+#artNav .art_nav TD {
+	TEXT-ALIGN: left
+}
+#artNav .art_nav TD.art_nav_t {
+	PADDING-LEFT: 28px; FONT-SIZE: 14px; BACKGROUND: url(list.gif) #f4f4f4 no-repeat -600px 12px; COLOR: #a21c68; LINE-HEIGHT: 31px; BORDER-BOTTOM: #e0e0e0 1px solid; HEIGHT: 31px
+}
+#artNav .art_nav .art_nav_c TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 25px; PADDING-TOP: 5px
+}
+#artNav .art_nav .art_nav_c TD .current_page {
+	FONT-WEIGHT: bold; COLOR: #b50066
+}

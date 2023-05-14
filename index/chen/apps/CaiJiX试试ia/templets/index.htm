@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>智能采集</title>
+<link href="../../<?php echo $css?>/base.css" rel="stylesheet" type="text/css">
+<link href="style/cjx.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+var cjxhost = '<?php echo $cjxhost?>';
+var ptype = 'setting';
+</script>
+<script type="text/javascript" src="style/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="style/jquery-ui.min.js"></script>
+<script type="text/javascript" src="style/cjx.js"></script>
+<style type="text/css">
+<!--
+body {background-image: url(../../<?php echo $img?>/allbg.gif);}
+-->
+</style>
+</head>
+<body topmargin="8">
+<table width="98%"  border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D1DDAA">
+  <form name="form1" id="form1" action="index.php" method="post">
+    <tr> 
+      <td height="20" colspan="2" background="../../<?php echo $img?>/tbg.gif">
+      <span style="float:right"><a href="javascript:suggest();"><b style="color:#F60">給我们提意见</b></a>&nbsp;</span>
+      <b>&nbsp;智能采集 &gt; 基本设置：</b> </td>
+    </tr>
+    <tr style="display:none" id="pp" bgcolor="#FFFFFF"> 
+        <td colspan="2"><div id="ppt" style="display:none;background-color:#FCFE9C">&nbsp;感谢您选择织梦采集侠，您目前使用的是免费版，升级高级版可以获得更多功能和服务 <a href="http://wpa.qq.com/msgrd?v=3&uin=79702151&site=qq&menu=yes" target="_blank"><strong>在线咨询</strong></a></div></td>
+    </tr>
+    <tr> 
+        <td colspan="2" bgcolor="#FFFFFF"><br>&nbsp; 织梦采集侠默认开启以下功能：<br>
+       &nbsp; 自动纠错，自动排版，自动关键词，自动描述，自动分页，自动去重复，自动缩略图<br>&nbsp; 
+        </td>
+    </tr>
+    <tr> 
+      <td width="19%" align="center" bgcolor="#FFFFFF">自动头条，自动推荐：</td>
+      <td width="81%" bgcolor="#FFFFFF">
+      <input type="radio" name="setting[kw_autof]" value="1" <?php if($kw_autof=='1') echo 'checked';?>>是
+      <input name="setting[kw_autof]" type="radio" value="0" <?php if($kw_autof=='0') echo 'checked';?>>否
+      <span style="color:#666"></span></td>
+    </tr>
+    <tr> 
+      <td width="19%" align="center" bgcolor="#FFFFFF">是否下载远程图片：</td>
+      <td width="81%" bgcolor="#FFFFFF">
+      <input type="radio" name="setting[kw_downpic]" value="1" <?php if($kw_downpic=='1') echo 'checked';?>>是
+      <input name="setting[kw_downpic]" type="radio" value="0" <?php if($kw_downpic=='0') echo 'checked';?>>否
+      <span style="color:#666"></span></td>
+    </tr>	
+    <tr> 
+      <td width="19%" align="center" bgcolor="#FFFFFF">是否生成静态：</td>
+      <td width="81%" bgcolor="#FFFFFF">
+      <input type="radio" name="setting[kw_ismake]" value="1" <?php if($kw_ismake=='1') echo 'checked';?>>是
+      <input name="setting[kw_ismake]" type="radio" value="0" <?php if($kw_ismake=='0') echo 'checked';?>>否
+      <span style="color:#666"></span></td>
+    </tr>
+    <tr> 
+      <td width="19%" align="center" bgcolor="#FFFFFF">是否自动审核：</td>
+      <td width="81%" bgcolor="#FFFFFF">
+      <input type="radio" name="setting[kw_arcrank]" value="1" <?php if($kw_arcrank=='1') echo 'checked';?>>是
+      <input name="setting[kw_arcrank]" type="radio" value="0" <?php if($kw_arcrank=='0') echo 'checked';?>>否
+      <span style="color:#666"></span></td>
+    </tr>
+    <tr> 
+      <td width="19%" align="center" bgcolor="#FFFFFF">是否采集分页：</td>
+      <td width="81%" bgcolor="#FFFFFF">
+      <input type="radio" name="setting[kw_fy]" value="1" <?php if($kw_fy=='1') echo 'checked';?>>是
+      <input name="setting[kw_fy]" type="radio" value="0" <?php if($kw_fy=='0') echo 'checked';?>>否
+      <span style="color:#666">（如果你的服务器不好，并不推荐打开，此功能会消耗较多服务器负载）</span></td>
+    </tr>
+    <tr> 
+      <td width="19%" align="center" bgcolor="#FFFFFF">每小时采集上限：</td>
+      <td width="81%" bgcolor="#FFFFFF">
+      <input name="setting[kw_maxcount]" type="text" value="<?php echo $kw_maxcount;?>">
+      <span style="color:#666"></span></td>
+    </tr>
+    <tr bgcolor="#F9FDF0"> 
+      <td height="28" colspan="2">
+      	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="26%">&nbsp;</td>
+            <td width="15%"><input name="imageField" class="np" type="image" src="../../<?php echo $img?>/button_ok.gif" width="60" height="22" border="0"></td>
+            <td width="59%"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </form>
+</table>
+<div id="dialog">
+  <div>将您对采集侠的意见建议提交给我们：</div>
+  <div>
+  	<form action="index.php?ac=suggets" method="post" onSubmit="return sugsubmit()">
+  	<textarea name="v" rows="8" style="width:300px" id="sugv"></textarea>
+    <div style="height:5px"></div>
+    <input name="submit" type="submit" value="提交" id="submit">
+    <input name="button" type="button" value="关闭" id="submit" onClick="$('#dialog').hide()">
+    </form>
+  </div>
+</div>
+<br><center>官方站点<a href="http://www.dedeadmin.com" target="_blank">http://www.dedeadmin.com</a> 客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=79702151&site=qq&menu=yes" target="_blank">79702151</a> 官方群：<a href="http://qun.qq.com/#jointhegroup/gid/139555406" target="_blank">139555406</a>
+</center>
+</body>
+</html>

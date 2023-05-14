@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<link rel="stylesheet" rev="stylesheet" href="CSS/admin.css" type="text/css" media="screen" />
+	<script language="JavaScript" src="SCRIPT/common.js" type="text/javascript"></script>
+	<script language="JavaScript" src="SCRIPT/md5.js" type="text/javascript"></script>
+	<title>唐山工作服|唐山职业装|工作服制服|唐山宏盛制衣-管理登录</title>
+</head>
+<body class="login">
+<form id="frmLogin" method="post">
+<h3>管理登录</h3>
+<table border="0" width="100%" cellspacing="5" cellpadding="5">
+	<tr>
+		<td align="right" width="25%">名称: </td>
+		<td><input type="text" id="edtUserName" name="edtUserName" size="20" /></td>
+	</tr>
+	<tr>
+		<td align="right">密码: </td>
+		<td><input type="password" id="edtPassWord" name="edtPassWord" size="20" /></td>
+	</tr>
+	<tr>
+		<td align="right">保存: </td>
+		<td><select size="1" value="0" id="cmbSave" onchange="edtSaveDate.value=this.options[this.selectedIndex].value"><option selected="selected" value="">不保存</option><option value="1">保存1天</option><option value="30">保存1月</option><option value="365">保存1年</option></select><input type="hidden" id="edtSaveDate" name="edtSaveDate" value="" /></td>
+	</tr>
+	<tr>
+		<td align="right">验证: </td>
+		<td><input type="text" id="edtCheckOut" name="edtCheckOut" size="10" /> <img style="border:1px solid black" src="function/c_validcode.aspname=loginvalid.gif" height="20" width="60" alt="" title="唐山"/></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input class="button" type="submit" value="登录" id="btnPost"></td>
+	</tr>
+</table>
+
+</form>
+
+<script language="JavaScript" type="text/javascript">
+
+function SetCookie(sName, sValue,iExpireDays) {
+	if (iExpireDays){
+		var dExpire = new Date();
+		dExpire.setTime(dExpire.getTime()+parseInt(iExpireDays*24*60*60*1000));
+		document.cookie = sName + "=" + escape(sValue) + "; expires=" + dExpire.toGMTString();
+	}
+	else{
+		document.cookie = sName + "=" + escape(sValue)+ "; path=/blog/";
+	}
+}
+
+
+if(GetCookie("username")){document.getElementById("edtUserName").value=unescape(GetCookie("username"))};
+
+document.getElementById("btnPost").onclick=function(){
+
+	var strUserName=document.getElementById("edtUserName").value;
+	var strPassWord=document.getElementById("edtPassWord").value;
+	var strSaveDate=document.getElementById("edtSaveDate").value
+
+	if((strUserName=="")||(strPassWord=="")){
+		alert("用户名,密码不能为空");
+		return false;
+	}
+
+	strUserName=escape(strUserName);
+
+	strPassWord=MD5(strPassWord);
+
+	SetCookie("username",strUserName,strSaveDate);
+	SetCookie("password",strPassWord,strSaveDate);
+
+	document.getElementById("frmLogin").action="cmd.asp?act=verify"
+
+}
+
+
+$(document).ready(function(){ 
+	if(document.getElementById("edtCheckOut")){
+		var objImageValid=$("img[@src='function/c_validcode.asp?name=loginvalid']");
+		objImageValid.css("cursor","pointer");
+		objImageValid.click( function() {
+				objImageValid.attr("src","function/c_validcode.asp?name=loginvalid"+"&random="+Math.random());
+		} );
+	}
+});
+
+</script>
+</body>
+</html>
